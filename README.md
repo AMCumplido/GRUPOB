@@ -18,7 +18,7 @@
 | Álvaro Cardoso Serrano | a.cardoso.2024@alumnos.urjc.es | Roalvo15-YT |
 | Estanislao de Koska Castrillón Román | ek.castrillon.2022@alumnos.urjc.es | Estcastri |
 
-**Repositorio:** `https://github.com/<usuario>/<repositorio>`
+**Repositorio:** `https://github.com/AMCumplido/GRUPOB.git`
 
 **Licencia:** [Apache 2.0](LICENSE)
 
