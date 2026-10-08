@@ -10,7 +10,7 @@
 
 ## Descripción de la temática
 
-**(Nombre)** es un juego en 2D para varios jugadores en red en el que un cazador persigue al resto de jugadores y los otros tienen que eliminar al cazador sin que los elimine este. Ambientado en una nave nodriza alienígena, los jugadores que encarnan a los invasores extraterrestres deben eliminar el cazador para proceder con su plan; por otro lado el cazador tiene que eliminarlos para salvar a la tierra.
+"Alien Expel" es un juego en 2D para varios jugadores en red en el que un cazador persigue al resto de jugadores y los otros tienen que eliminar al cazador sin que los elimine este. Ambientado en una nave nodriza alienígena, los jugadores que encarnan a los invasores extraterrestres deben eliminar el cazador para proceder con su plan; por otro lado el cazador tiene que eliminarlos para salvar a la tierra.
 
 ## Equipo de desarrollo
 
