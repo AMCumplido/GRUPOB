@@ -1,0 +1,10 @@
+Juegos en Red - Fase 1
+Grupo: B
+Juego: (Nombre)
+
+Integrantes:
+- Alejandro Miguel Cumplido Alastuey    - am.cumplidoa.2024@alumnos.urjc.es    - GitHub: alumno1-ejemplo
+- Álvaro Cardos Serrano    - a.dos.20XX@alumnos.urjc.es    - GitHub: alumno2-ejemplo
+- Estanislao de Kosko Castrillón Román   - a.tres.20XX@alumnos.urjc.es   - GitHub: alumno3-ejemplo
+
+Repositorio GitHub: https://github.com/<usuario>/<repositorio>
