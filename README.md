@@ -14,9 +14,9 @@
 
 ## Equipo de desarrollo
 
-| Alejandro Miguel Cumplido Alastuey | am.cumplidoa.2024@alumnos.urjc.es | :--- |
-| Álvaro Cardoso Serrano | @alumnos.urjc.es | :--- |
-| Estanislao de Koska Castrillón Román | ek.castrillon.2022@alumnos.urjc.es | :--- |
+| Alejandro Miguel Cumplido Alastuey | am.cumplidoa.2024@alumnos.urjc.es | AMCumplido |
+| Álvaro Cardoso Serrano | a.cardoso.2024@alumnos.urjc.es | Roalvo15-YT |
+| Estanislao de Koska Castrillón Román | ek.castrillon.2022@alumnos.urjc.es | Estcastri |
 
 **Repositorio:** `https://github.com/<usuario>/<repositorio>`
 
