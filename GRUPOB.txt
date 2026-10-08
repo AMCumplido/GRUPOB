@@ -1,6 +1,6 @@
 Juegos en Red - Fase 1
 Grupo: B
-Juego: (Nombre)
+Juego: Alien Expel
 
 Integrantes:
 - Alejandro Miguel Cumplido Alastuey    - am.cumplidoa.2024@alumnos.urjc.es    - GitHub: AMCumplido
