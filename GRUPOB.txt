@@ -4,7 +4,7 @@ Juego: (Nombre)
 
 Integrantes:
 - Alejandro Miguel Cumplido Alastuey    - am.cumplidoa.2024@alumnos.urjc.es    - GitHub: alumno1-ejemplo
-- Álvaro Cardos Serrano    - a.dos.20XX@alumnos.urjc.es    - GitHub: alumno2-ejemplo
+- Álvaro Cardos Serrano    - a.cardoso.2024@alumnos.urjc.es    - GitHub: alumno2-ejemplo
 - Estanislao de Kosko Castrillón Román   - ek.castrillon.2022@alumnos.urjc.es   - GitHub: alumno3-ejemplo
 
 Repositorio GitHub: https://github.com/<usuario>/<repositorio>
