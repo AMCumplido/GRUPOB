@@ -1,4 +1,4 @@
-# (Nombre) — Game Design Document
+# Alien Expel — Game Design Document
 
 [← Volver al README](README.md)
 
@@ -24,7 +24,7 @@
 
 ### 1.1. Concepto del juego
 
-(Nombre) es un juego de persecución para varios jugadores en el que un cazador debe eliminar a los invasores alienígenas que se ocultan en su nave nodriza teniendo cuidado ya que no se van ha quedar de brazos cruzados los extraterrestres. La idea principal es que un jugador represente al cazador y tenga que eliminar a los otros jugadores que son alienígenas.
+Alien Expel es un juego de persecución para varios jugadores en el que un cazador debe eliminar a los invasores alienígenas que se ocultan en su nave nodriza teniendo cuidado ya que no se van ha quedar de brazos cruzados los extraterrestres. La idea principal es que un jugador represente al cazador y tenga que eliminar a los otros jugadores que son alienígenas.
 
 ### 1.2. Propuesta de valor
 
@@ -46,11 +46,11 @@
 
 | Aspecto | Descripción |
 | :--- | :--- |
-| **Título** | AAA |
-| **Género** | AAA (p. ej. plataformas competitivo, *party game*, *arena shooter*...) |
+| **Título** | Alien Expel |
+| **Género** | party game |
 | **Número de jugadores** | 2 (en red, tiempo real) |
-| **Público objetivo** | AAA (p. ej. jugadores casuales de 12 a 30 años) |
-| **Clasificación PEGI** | PEGI AAA (justificar) |
+| **Público objetivo** | jugadores de todas las edades |
+| **Clasificación PEGI** | PEGI 3 (no tiene violencia) |
 | **Plataforma** | Navegador web (PC), desarrollado con Phaser 3 |
 | **Duración de una partida** | AAA minutos |
 | **Representación** | 2D |
