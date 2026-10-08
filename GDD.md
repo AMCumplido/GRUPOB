@@ -24,15 +24,15 @@
 
 ### 1.1. Concepto del juego
 
-Alien Expel es un juego de persecución para varios jugadores en el que un cazador debe eliminar a los invasores alienígenas que se ocultan en su nave nodriza teniendo cuidado ya que no se van ha quedar de brazos cruzados los extraterrestres. La idea principal es que un jugador represente al cazador y tenga que eliminar a los otros jugadores que son alienígenas.
+Alien Expel es un videojuego de persecución y acción asimétrica enfocado en la experiencia de juego de fiesta para varios jugadores. En él, un jugador asumirá el papel de superhéroe enviado con la misión crítica de erradicar una inminente invasión alienígena. Mientras que el resto de jugadores encarnarán a los alienígenas que deberán evitar ser capturados.
 
 ### 1.2. Propuesta de valor
 
-¿Qué hace diferente a vuestro juego? AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA.
+Nuestro producto está orientado a entusiastas de los juegos de fiesta para multijugador. Sus características diferenciales son:
 
-- Característica diferencial 1: AAA.
-- Característica diferencial 2: BBB.
-- Característica diferencial 3: CCC.
+- Característica diferencial 1: El bucle jugable se centra en la guerra de desgaste y control del escenario. Pues el bando alienígena tendrá que cooperar haciendo uso de la arquitectura de la nave (bloqueando puertas y usando trampillas). Mientras que el superhéroe debe de gestionar bien sus recursos para dar caza a los invasores.
+- Característica diferencial 2: El juego elimina el terror y tensión de otros títulos del género de pilla pilla para ofrecer una experiencia más social, desenfadada y de ritmo frenético, ideal para todo tipo de audiencias.
+- Característica diferencial 3: Para potenciar la identidad de los jugadores nuestro juego cuenta con diferentes skins de superhéroes y alienígenas.
 
 ![Imagen promocional / key art del juego](img/portada_presentacion.png)
 
@@ -42,17 +42,15 @@ Alien Expel es un juego de persecución para varios jugadores en el que un cazad
 
 ## 2. Especificaciones básicas
 
-> *Rúbrica — Documento / Especificaciones básicas:* género, público objetivo/edad y plataforma.
-
 | Aspecto | Descripción |
 | :--- | :--- |
 | **Título** | Alien Expel |
-| **Género** | party game |
-| **Número de jugadores** | 2 (en red, tiempo real) |
-| **Público objetivo** | jugadores de todas las edades |
-| **Clasificación PEGI** | PEGI 3 (no tiene violencia) |
+| **Género** | Juego de fiesta |
+| **Número de jugadores** | Hasta 4 jugadores (en red o local, tiempo real) |
+| **Público objetivo** | Casuales de todas las edades |
+| **Clasificación PEGI** | PEGI 3 (no contiene violencia) |
 | **Plataforma** | Navegador web (PC), desarrollado con Phaser 3 |
-| **Duración de una partida** | AAA minutos |
+| **Duración de una partida** | 3 minutos |
 | **Representación** | 2D |
 | **Licencia** | Apache 2.0 |
 
@@ -62,15 +60,25 @@ Alien Expel es un juego de persecución para varios jugadores en el que un cazad
 
 ### 3.1. Objetivo del juego
 
-> *Rúbrica — Jugabilidad / Objetivo del juego:* debe estar claramente definido.
+El juego se desarrolla en partidas asimétricas con una duración de tres minutos donde la victoria se disputa entre el superhéroe (cazador) y el bando de los alienígenas (cazados) que se compondrán de 1 a 4 jugadores. Cada bando tiene una condición de victoria mutuamente excluyentes:
 
-El objetivo de cada jugador es AAA AAA AAA. La partida termina cuando AAA AAA. Gana el jugador que AAA AAA.
+- **Condición de victoria del superhéroe**: su objetivo es neutralizar a todos los alienígenas de la nave antes de que se agote el tiempo de la partida. Pese a que su movimiento es más ágil, para lograr atraparlos debe optimizar su estamina siendo eficiente en la persecución y evitando que le roben los recursos de energías que se irán generando por el mapa.
+- **Condición de victoria de los alienígenas**: su objetivo es sobrevivir en equipo hasta que el temporizador de la partida llegue a cero. Lograrán esto saboteando el avance del héroe mediante el bloqueo temporal de puertas, el robo de botes de energía y  el uso de trampillas para huir del enemigo.
 
-### 3.2. Controles
+### 3.2. Controles *pendiente de mapear dibujos
 
-> *Rúbrica — Jugabilidad / Controles.* Indicad teclado y ratón.
-
+- Teclado y ratón (limitado a 2 jugadores locales):
 | Acción | Jugador 1 | Jugador 2 |
+| :--- | :---: | :---: |
+| Moverse a la izquierda | `A` | `←` |
+| Moverse a la derecha | `D` | `→` |
+| Saltar | `W` | `↑` |
+| Acción especial AAA | `Espacio` | `Enter` |
+| Apuntar / disparar | Ratón (clic izquierdo) | Ratón (clic izquierdo) |
+| Pausa | `Esc` | `Esc` |
+
+- Mando:
+| Acción | Jugador 1 al 4  |
 | :--- | :---: | :---: |
 | Moverse a la izquierda | `A` | `←` |
 | Moverse a la derecha | `D` | `→` |
@@ -85,45 +93,62 @@ El objetivo de cada jugador es AAA AAA AAA. La partida termina cuando AAA AAA. G
 
 #### 3.3.1. Mecánicas principales
 
-- **AAA:** AAA AAA AAA AAA AAA AAA.
-- **BBB:** BBB BBB BBB BBB BBB BBB.
-- **CCC:** CCC CCC CCC CCC CCC CCC.
+- **Gestión de estamina (Superhéroe):** El superhéroe tiene una velocidad de movimiento mayor que la de los alienígenas. No obstante, este gasta energía constantemente al desplazarse andando, y más aún si se usa el botón de correr. Si su barra de estamina se vacía por completo, queda ralentizado a una velocidad bastante menor que la de los alienígenas hasta que consiga hacerse con un módulo de energía con el cual recuperará parte de esta estamina.
+- **Activación de rampas (Superhéroe):** Mecánica exclusiva del perseguidor. El mapa cuenta con zonas con cuadros de luz que el superhéroe puede hackear haciendo que se activen zonas de suelo especial (rampas) por tiempo limitado. Estas rampas permiten al jugador que encarna al superhéroe avanzar a máxima velocidad sin sufrir penalización ni desgaste de su barra de energía.
+- **Uso de la arquitectura ambiental (Alienígenas):** Los alienígenas no pueden atacar directamente, pero controlan la arquitectura de la nave nodriza. Pudiendo accionar trampillas para huir por conductos de ventilación y bloquear puertas temporalmente para frenar el avance del superhéroe y obligarlo a buscar rutas alternativas.
+- **Sabotaje y robo de recursos (Alienígenas):** Los alienígenas pueden interceptar y recolectar los botes de estamina del escenario antes que el superhéroe. Al hacerlo, eliminan el recurso del mapa, acelerando el desgaste del perseguidor y forzandolo a cambiar su ruta de caza.
 
 #### 3.3.2. Objetos y power-ups
 
-| Objeto | Efecto | Duración | Aparición |
+| Objeto/Elemento del mapeado | Efecto | Duración | Aparición |
 | :--- | :--- | :---: | :--- |
-| AAA | AAA AAA AAA | 5 s | Aleatoria cada 15 s |
-| BBB | BBB BBB BBB | 10 s | Zona central del mapa |
-| CCC | CCC CCC CCC | Instantáneo | Al derrotar a un enemigo |
+| Bote de Estamina | Recarga un 25% de la barra de energía del superhéroe. Si lo recoge un alien, el objeto desaparece. | Instantáneo. | Aparición en zonas aleatorias del mapa cada 15 s. Se generan un máximo de 4 botes simultáneos en el mapa, si quedan botes activos sin recolectar (n), solo aparecerán 4 - n botes nuevos. |
+| Cuadros de hackeo | Activan rampas de avance sin coste para el superhéroe. | Duración de 10 s. | Pasillos concretos del mapeado. |
+| Boton de cierre de puertas | Estos botones permiten a los alienígenas bloquear puertas por tiempo limitado para que el contrincante tenga que elegir otra ruta. | Duración de 15 s. | Zonas concretas del mapeado. |
+| Conductos de ventilación | Trampillas que les ofrecen a los alienígenas el modo de escapar de una zona del mapeado a otra. | Tras su uso nadie puede volver a utilizarla en un plazo de 5 s. | Zonas concretas del mapeado. |
 
 #### 3.3.3. Sistema de puntuación
 
-AAA AAA AAA AAA (p. ej. +10 puntos por AAA, −5 por BBB).
+La puntuación final determina la eficiencia de los jugadores al terminar la partida. Para garantizar un sistema equilibrado y competitivo, los puntos se escalan dinámicamente según el número total de alienígenas en la partida (N):
+
+- **Puntuación del superhéroe:**
+-- Por captura exitosa: +(400/N) puntos por cada alienígena capturado (así capturar al 100% de la horda siempre otorgará una base fija de 400 puntos ya sea un uno contra uno o un uno contra cuatro).
+-- Bonus de tiempo: +((600/tiempo total) * tiempo restante) puntos si logra capturar a todos antes del tiempo límite. Donde tiempo total son los 3 minutos de duración total posible y tiempo restante son los segundos que sobraban en el cronómetro.
+
+- **Puntuación de los alienígenas:**
+-- Supervivencia: +((400/tiempo tota*Nl) * sumatorio del tiempo sobrevivido) puntos. Si todos los alienígenas sobreviven la partida completa de 180 segundos, el bando asegura una base fija de 400 puntos (independientemente de si es un uno contra uno  o un uno contra cuatro). A nivel técnico, el bando suma 2.22 puntos por cada segundo que pase con la horda completa en juego, reduciéndose proporcionalmente esta ganancia por cada baja.
+-- Sabotaje Colectivo (Hasta 600 puntos): +27.27 puntos por cada bote de estamina robado con éxito entre todos los miembros del equipo, con un tope máximo acumulable de 600 puntos por este concepto (equivalente a robar un máximo de 22 botes colectivos de los 44 totales que pueden aparecer). Esto permite escalar el marcador grupal desde la base de 400 hasta el límite de 1000 puntos.
+-- Penalización por captura: -(400/N) puntos en el marcador global del bando por cada jugador que sea atrapado por el superhéroe antes de que termine el tiempo. En un 1vs1 (N=1), ser capturado resta los 400 puntos íntegros de la base de supervivencia y hace terminar la partida de forma directa.
 
 ### 3.4. Físicas y dificultad
 
-> *Rúbrica — Jugabilidad / Físicas:* físicas variadas con elementos de dificultad.
+- **Inercia e impulso de velocidad:** El sistema aplica físicas de movimiento basadas en tres estados de velocidad lineal diferenciados entre los bandos:
+-- Superhéroe (Velocidad variable con estamina): Cuenta con dos estados de movimiento orientados a la gestión de recursos. Su velocidad base al caminar (100% de velocidad lineal) consume estamina de forma moderada pero constante. Su velocidad de carrera (200% de velocidad lineal) le permite recortar distancias rápidamente pero triplica la tasa de consumo de su barra de energía.
+-- Alienígenas: Se desplazan a una velocidad única, fija e intermedia de 120%. Al no poseer una barra de resistencia, se mueven de forma constante sin sufrir ningún tipo de penalización ni desgaste. Eso les permite superar la caminata del héroe y obligarlo a gastar energía en carrera.
+-- Física de impulso en rampas: Al pisar una rampa, el héroe es impulsado a una velocidad de +50% si va andando y +25% si va corriendo. Siendo este el único suelo del mapa donde su consumo de estamina se detiene por completo.
 
-- **Gravedad y salto:** AAA AAA AAA.
-- **Colisiones:** AAA AAA AAA (con plataformas, entre jugadores, con proyectiles...).
-- **Rebotes / fricción / empujes:** AAA AAA AAA.
-- **Plataformas móviles o superficies especiales (hielo, rebote...):** AAA AAA AAA.
-- **Progresión de la dificultad:** a medida que avanza la partida AAA AAA AAA.
+- **Colisiones e interacción física:** El escenario cuenta con colisiones sólidas bidimensionales en paredes, esquinas y puertas pesadas. Existe una caja de colisión estricta entre el superhéroe y los alienígenas; el contacto físico directo entre sus colisionadores activa la mecánica de captura de forma instantánea. Para evitar frustración y bloqueos en pasillos estrechos, las colisiones físicas entre jugadores del mismo bando alienígena están desactivadas, permitiéndoles atravesarse entre sí.
+
+- **Fuerzas de empuje:** Las puertas magnéticas y compuertas de la nave aplican un vector de fuerza de empuje físico hacia atrás si se cierran justo cuando un jugador intenta cruzarlas, desplazando al personaje y penalizando su posición en la persecución. Actuando como paredes normales cuando están completamente cerradas.
+
+- **Superficies de fricción modificada (Cintas transportadoras):** El suelo de la nave cuenta con zonas de cintas transportadoras industriales que aplican una fuerza de arrastre constante en una dirección fija. Si un jugador corre a favor de la cinta, su velocidad física se duplica; si corre en contra, experimenta una resistencia que reduce su velocidad a la mitad.
+
+- **Progresión de la dificultad:** Se plantean 3 mapas diferentes con complejidad creciente.
 
 ### 3.5. Escenario
 
-> *Rúbrica — Jugabilidad / Calidad del escenario.*
+El juego consta de tres escenarios diferentes que representan áreas diferentes de la nave. Estos son seleccionados antes de iniciar la partida.
 
-El escenario representa AAA AAA AAA. Se compone de AAA zonas:
+1. **Zona de habitaciones:** Consta de la sala de control de mandos, los dormitorios y la cafetería.
+2. **Zona del hangar:** Consta de talleres de reparación, muelles de lanzamiento y almacenes de carga.
+3. **Zona de tareas:** Consta de laboratorios, áreas de entrenamiento y áreas de ocio (cine, recreativas, tiendas).
 
-1. **Zona AAA:** AAA AAA AAA.
-2. **Zona BBB:** BBB BBB BBB.
-3. **Zona CCC:** CCC CCC CCC.
-
-![Mapa del escenario](img/mapa_escenario.png)
-
-*Figura 2. Mapa del escenario con zonas de aparición, plataformas y obstáculos.*
+![Mapa del escenario](img/mapa_escenario1.png)
+*Figura 2. Mapa del escenario 1.*
+![Mapa del escenario](img/mapa_escenario2.png)
+*Figura 3. Mapa del escenario 2.*
+![Mapa del escenario](img/mapa_escenari3.png)
+*Figura 4. Mapa del escenario 3.*
 
 ---
 
@@ -133,33 +158,69 @@ El escenario representa AAA AAA AAA. Se compone de AAA zonas:
 
 ### 4.1. Historia
 
-AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA.
+En el año 20XX, la Tierra respira tranquila bajo la protección de "Los Vigilantes de la Órbita", un carismático y poderoso grupo de superhéroes. Sin embargo, la paz global está gestionada en la sombra por la Agencia de Respuesta de Élite (ARE), una organización gubernamental ultrasecreta liderada por el frío y calculador Director Vance, un hombre pragmático que ve amenazas alienígenas hasta en una estrella fugaz. La alarma geopolítica se desata cuando los radares de la ARE detectan una nave nodriza entrando en la atmósfera. Sin dudarlo un segundo, Vance activa la línea roja y envía al primer superhéroe disponible al espacio con una orden clara: infiltrarse en la nave y neutralizar la "invasión" a toda costa. 
 
-AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA.
+Al llegar el primer superhéroe, los alienígenas, que venían solo de turismo, comienzan a temer por sus vidas. Los turistas extraterrestres entran en pánico absoluto y empiezan a huir por toda la nave intentando aguantar hasta que esta aterrice de emergencia en la Tierra, si es que consiguen sobrevivir.
+
+Sin embargo, el superhéroe se enfrenta a un problema imprevisto: la atmósfera interna de la nave le debilita de forma continua, consumiendo su Hyper-Estamina a cada segundo. Al darse cuenta de que su agente se está quedando sin energía en pleno espacio exterior, el Director Innombrable interviene desde la base de la ARE hackeando los sistemas de la nave nodriza para enviarle suministros de emergencia. Cada 15 segundos, la agencia teletransporta botes de energía en coordenadas aleatorias del mapa. El problema es que los ingeniosos alienígenas interceptan estas señales y se dedican a robar los botes en la cara del héroe para dejarlo seco, sabiendo que si agotan sus suministros durante los 3 minutos de descenso, el superhéroe quedará indefenso y ellos podrán aterrizar a salvo.
 
 ### 4.2. Personajes
 
-#### AAA (Jugador 1)
+#### Superhéroe 1
 
 <img src="img/personaje_1.png" alt="Boceto del personaje AAA" width="250">
 
 - **Edad / origen:** AAA.
 - **Personalidad:** AAA AAA AAA.
 - **Motivación:** AAA AAA AAA.
-- **Habilidad especial:** AAA AAA AAA.
 - **Trasfondo:** AAA AAA AAA AAA AAA AAA AAA AAA AAA.
 
-#### BBB (Jugador 2)
+#### Superhéroe 2
+
+<img src="img/personaje_1.png" alt="Boceto del personaje AAA" width="250">
+
+- **Edad / origen:** AAA.
+- **Personalidad:** AAA AAA AAA.
+- **Motivación:** AAA AAA AAA.
+- **Trasfondo:** AAA AAA AAA AAA AAA AAA AAA AAA AAA.
+
+#### Superhéroe 3
+
+<img src="img/personaje_1.png" alt="Boceto del personaje AAA" width="250">
+
+- **Edad / origen:** AAA.
+- **Personalidad:** AAA AAA AAA.
+- **Motivación:** AAA AAA AAA.
+- **Trasfondo:** AAA AAA AAA AAA AAA AAA AAA AAA AAA.
+
+#### Raza Alienígena 1: Bubble Beast
 
 <img src="img/personaje_2.png" alt="Boceto del personaje BBB" width="250">
 
 - **Edad / origen:** BBB.
 - **Personalidad:** BBB BBB BBB.
 - **Motivación:** BBB BBB BBB.
-- **Habilidad especial:** BBB BBB BBB.
 - **Trasfondo:** BBB BBB BBB BBB BBB BBB BBB BBB BBB.
 
-#### CCC (enemigo / personaje no jugable)
+#### Raza Alienígena 2: Ranma
+
+<img src="img/personaje_2.png" alt="Boceto del personaje BBB" width="250">
+
+- **Edad / origen:** BBB.
+- **Personalidad:** BBB BBB BBB.
+- **Motivación:** BBB BBB BBB.
+- **Trasfondo:** BBB BBB BBB BBB BBB BBB BBB BBB BBB.
+
+#### Raza Alienígena 3: Carapez
+
+<img src="img/personaje_2.png" alt="Boceto del personaje BBB" width="250">
+
+- **Edad / origen:** BBB.
+- **Personalidad:** BBB BBB BBB.
+- **Motivación:** BBB BBB BBB.
+- **Trasfondo:** BBB BBB BBB BBB BBB BBB BBB BBB BBB.
+
+#### Director Innombrable (Personaje no jugable)
 
 <img src="img/enemigo_1.png" alt="Boceto del enemigo CCC" width="250">
 
@@ -288,9 +349,9 @@ flowchart TD
     E --> B
     
     C --> F[Crear Partida / Host]
-    C --> G[Unirse a Partida / Cliente]
+    C --> G[Unirse a Partida / Client]
     
-    F --> H[Escenario de Espera]
+    F --> H[Lobby de Espera]
     G --> H
     
     H -->|Selección de Roles| I[Cargando Escenario en Nave]
