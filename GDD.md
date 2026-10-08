@@ -280,21 +280,34 @@ Los bocetos de los personajes se encuentran en el apartado [4.2](#42-personajes)
 
 ```mermaid
 flowchart TD
-    A[Pantalla de carga] --> B[Menú principal]
-    B --> C[Jugar]
+    A[Pantalla de Carga / Splash] --> B[Menú Principal]
+    B --> C[Menú Multijugador]
     B --> D[Ajustes]
-    B --> E[Ayuda]
-    B --> F[Créditos]
+    B --> E[Ayuda / Controles]
     D --> B
     E --> B
-    F --> B
-    C --> G[Partida]
-    G -->|Esc| H[Pausa]
-    H -->|Reanudar| G
-    H -->|Salir| B
-    G -->|Condición de victoria| I[Fin de partida]
-    I -->|Revancha| G
-    I -->|Volver| B
+    
+    C --> F[Crear Partida / Host]
+    C --> G[Unirse a Partida / Client]
+    
+    F --> H[Lobby de Espera]
+    G --> H
+    
+    H -->|Selección de Roles| I[Cargando Escenario en Nave]
+    I --> J[Partida en Curso]
+    
+    J -->|Tecla Esc| K[Menú de Pausa]
+    K -->|Reanudar| J
+    K -->|Abandonar| B
+    
+    J -->|Cazador elimina a todos| L[Fin de Partida: Gana Cazador]
+    J -->|Se agota el tiempo / Aliens escapan| M[Fin de Partida: Ganan Aliens]
+    
+    L --> N[Pantalla de Puntuación]
+    M --> N
+    
+    N -->|Revancha| H
+    N -->|Volver al Menú| B
 ```
 
 **Opción 2 — Imagen** exportada desde draw.io, Excalidraw, Figma...:
