@@ -288,9 +288,9 @@ flowchart TD
     E --> B
     
     C --> F[Crear Partida / Host]
-    C --> G[Unirse a Partida / Client]
+    C --> G[Unirse a Partida / Cliente]
     
-    F --> H[Lobby de Espera]
+    F --> H[Escenario de Espera]
     G --> H
     
     H -->|Selección de Roles| I[Cargando Escenario en Nave]
