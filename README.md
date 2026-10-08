@@ -3,7 +3,7 @@
   <img src="img/logo.png" alt="Logotipo de AAA" width="400">
 </p>
 
-# Nombre
+# Alien Expel
 
 **Juegos en Red · Grado en Diseño y Desarrollo de Videojuegos · URJC · Curso 2026/27**<br>
 **Grupo B**
