@@ -16,8 +16,7 @@
 
 | Alejandro Miguel Cumplido Alastuey | am.cumplidoa.2024@alumnos.urjc.es | :--- |
 | Álvaro Cardoso Serrano | @alumnos.urjc.es | :--- |
-| Estanislao de Koska Castrillón Román | @alumnos.urjc.es | :--- |
-| Alumna Uno Ejemplo | a.uno.20XX@alumnos.urjc.es | `@alumno1-ejemplo` |
+| Estanislao de Koska Castrillón Román | ek.castrillon.2022@alumnos.urjc.es | :--- |
 
 **Repositorio:** `https://github.com/<usuario>/<repositorio>`
 
