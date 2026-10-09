@@ -78,7 +78,7 @@ El juego se desarrolla en partidas asimétricas con una duración de tres minuto
 | **Moverse a la derecha** | ![](img/Xelu_Free_Controller&Key_Prompts/Keyboard%20&%20Mouse/Dark/D_Key_Dark.png) | ![](img/Xelu_Free_Controller&Key_Prompts/Keyboard%20&%20Mouse/Light/Arrow_Right_Key_Light.png) |
 | **Interactuar con botones** | ![](img/Xelu_Free_Controller&Key_Prompts/Keyboard%20&%20Mouse/Dark/E_Key_Dark.png) | ![](img/Xelu_Free_Controller&Key_Prompts/Keyboard%20&%20Mouse/Light/Shift_Alt_Key_Light.png) |
 | **Correr (Solo Superhéroe)** | ![](img/Xelu_Free_Controller&Key_Prompts/Keyboard%20&%20Mouse/Dark/Space_Key_Dark.png) | - |
-| **Pausa / Menú** | ![](img/Xelu_Free_Controller&Key_Prompts/Keyboard%20&%20Mouse/Dark/P_Key_Dark.png) | ![](img/Xelu_Free_Controller&Key_Prompts/Keyboard%20&%20Mouse/Dark/P_Key_Light.png) |
+| **Pausa / Menú** | ![](img/Xelu_Free_Controller&Key_Prompts/Keyboard%20&%20Mouse/Dark/P_Key_Dark.png) | ![](img/Xelu_Free_Controller&Key_Prompts/Keyboard%20&%20Mouse/Light/P_Key_Light.png) |
 
 #### 3.2.2. Configuración de Mando (Estándar Steam Deck)
 
