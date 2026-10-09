@@ -135,15 +135,16 @@ La puntuación final determina la eficiencia de los jugadores al terminar la par
 
 El juego consta de tres escenarios diferentes que representan áreas diferentes de la nave. Estos son seleccionados antes de iniciar la partida.
 
-1. **Zona de habitaciones:** Consta de la sala de control de mandos, los dormitorios y la cafetería.
-2. **Zona del hangar:** Consta de talleres de reparación, muelles de lanzamiento y almacenes de carga.
-3. **Zona de tareas:** Consta de laboratorios, áreas de entrenamiento y áreas de ocio (cine, recreativas, tiendas).
-
+1. **Zona de habitaciones:** Consta de la sala de control de mandos, los dormitorios y la salas de descanso.
 ![Mapa del escenario](img/Escenarios/Escenario1.png)
 *Figura 2. Mapa del escenario 1.*
-![Mapa del escenario](img/mapa_escenario2.png)
+
+3. **Zona del hangar:** Consta de talleres y laboratorios, muelle de lanzamiento y almacenes.
+![Mapa del escenario](img/Escenarios/Escenario2.png)
 *Figura 3. Mapa del escenario 2.*
-![Mapa del escenario](img/mapa_escenari3.png)
+
+4. **Zona de tareas:** Consta de áreas de ocio como cine, tienda y cafetería.
+![Mapa del escenario](img/Escenarios/Escenario3.png)
 *Figura 4. Mapa del escenario 3.*
 
 ---
