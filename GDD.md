@@ -67,10 +67,10 @@ El juego se desarrolla en partidas asimétricas con una duración de tres minuto
 
 ### 3.2. Controles *pendiente de mapear dibujos
 
-- Teclado y ratón (limitado a 2 jugadores locales):
+- Teclado (limitado a 2 jugadores locales):
 | Acción | Jugador 1 | Jugador 2 |
 | :--- | :---: | :---: |
-| Moverse a arriba | (img/Xelu_Free_Controller&Key_Prompts/Keyboard & Mouse/Dark/W_Key_Dark.png) | `←` |
+| Moverse a arriba | ![Mapeado botón a arriba / teclado](img/Xelu_Free_Controller&Key_Prompts/Keyboard & Mouse/Dark/W_Key_Dark.png) | `←` |
 | Moverse a la derecha | `D` | `→` |
 | Saltar | `W` | `↑` |
 | Acción especial AAA | `Espacio` | `Enter` |
