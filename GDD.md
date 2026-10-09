@@ -78,15 +78,15 @@ El juego se desarrolla en partidas asimétricas con una duración de tres minuto
 | Interactuar con botones | ![](img/Xelu_Free_Controller&Key_Prompts/Keyboard%20&%20Mouse/Dark/E_Key_Dark.png) | ![](img/Xelu_Free_Controller&Key_Prompts/Keyboard%20&%20Mouse/Light/Shift_Alt_Key_Light.png) |
 | Correr (Solo Superhéroe) | ![](img/Xelu_Free_Controller&Key_Prompts/Keyboard%20&%20Mouse/Dark/Space_Key_Dark.png) | - |
 
-- Mando:
-| Acción | Jugador 1 al 4  |
-| :--- | :---: | :---: |
-| Moverse a la izquierda | `A` | `←` |
-| Moverse a la derecha | `D` | `→` |
-| Saltar | `W` | `↑` |
-| Acción especial AAA | `Espacio` | `Enter` |
-| Apuntar / disparar | Ratón (clic izquierdo) | Ratón (clic izquierdo) |
-| Pausa | `Esc` | `Esc` |
+#### 3.2.2. Configuración de Mando (Estándar Steam Deck)
+
+| Acción | Entrada del Mando (Steam Deck) | Descripción técnica |
+| :--- | :---: | :--- |
+| **Moverse / Desplazamiento** | ![](img/Steam%20Deck/SteamDeck_Dpad.png) o Stick Izquierdo | Ejes de movimiento en el joystick o la cruceta direccional. |
+| **Correr (Solo Héroe)** | ![](img/Steam%20Deck/SteamDeck_L1.png) | Se mantiene pulsado para correr al 200%. |
+| **Interactuar / Acción Especial** | ![](img/Steam%20Deck/SteamDeck_A.png) | Activa trampillas/puertas (Aliens) o pulsa botones de rampas (Héroe). |
+| **Pausa / Menú** | ![](img/Steam%20Deck/SteamDeck_Menu.png) | Detiene la partida y despliega el menú de opciones local. |
+
 
 ### 3.3. Mecánicas
 
