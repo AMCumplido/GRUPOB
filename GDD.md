@@ -113,8 +113,8 @@ El juego se desarrolla en partidas asimétricas con una duración de tres minuto
 La puntuación final determina la eficiencia de los jugadores al terminar la partida. Para garantizar un sistema equilibrado y competitivo, los puntos se escalan dinámicamente según el número total de alienígenas en la partida (N):
 
 - **Puntuación del superhéroe:**
--- Por captura exitosa: +(400/N) puntos por cada alienígena capturado (así capturar al 100% de la horda siempre otorgará una base fija de 400 puntos ya sea un uno contra uno o un uno contra cuatro).
--- Bonus de tiempo: +((600/tiempo total) * tiempo restante) puntos si logra capturar a todos antes del tiempo límite. Donde tiempo total son los 3 minutos de duración total posible y tiempo restante son los segundos que sobraban en el cronómetro.
+ - Por captura exitosa: +(400/N) puntos por cada alienígena capturado (así capturar al 100% de la horda siempre otorgará una base fija de 400 puntos ya sea un uno contra uno o un uno contra cuatro).
+ - Bonus de tiempo: +((600/tiempo total) * tiempo restante) puntos si logra capturar a todos antes del tiempo límite. Donde tiempo total son los 3 minutos de duración total posible y tiempo restante son los segundos que sobraban en el cronómetro.
 - **Puntuación de los alienígenas:**
 -- Supervivencia: +((400/tiempo tota*Nl) * sumatorio del tiempo sobrevivido) puntos. Si todos los alienígenas sobreviven la partida completa de 180 segundos, el bando asegura una base fija de 400 puntos (independientemente de si es un uno contra uno  o un uno contra cuatro). A nivel técnico, el bando suma 2.22 puntos por cada segundo que pase con la horda completa en juego, reduciéndose proporcionalmente esta ganancia por cada baja.
 -- Sabotaje Colectivo (Hasta 600 puntos): +27.27 puntos por cada bote de estamina robado con éxito entre todos los miembros del equipo, con un tope máximo acumulable de 600 puntos por este concepto (equivalente a robar un máximo de 22 botes colectivos de los 44 totales que pueden aparecer). Esto permite escalar el marcador grupal desde la base de 400 hasta el límite de 1000 puntos.
