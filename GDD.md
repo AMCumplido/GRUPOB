@@ -115,14 +115,10 @@ La puntuación final determina la eficiencia de los jugadores al terminar la par
 - **Puntuación del superhéroe:**
   - **Por captura exitosa:** +(400 / N) puntos por cada alienígena capturado (así capturar al 100% de la horda siempre otorgará una base fija de 400 puntos ya sea un uno contra uno o un uno contra cuatro).
   - **Bonus de tiempo:** +((600 / tiempo_total) * tiempo_restante) puntos si logra capturar a todos antes del tiempo límite. Donde tiempo total son los 3 minutos de duración total posible y tiempo restante son los segundos que sobraban en el cronómetro.
-
-- **Puntuación del superhéroe:**
- - Por captura exitosa: +(400/N) puntos por cada alienígena capturado (así capturar al 100% de la horda siempre otorgará una base fija de 400 puntos ya sea un uno contra uno o un uno contra cuatro).
- - Bonus de tiempo: +((600/tiempo total) * tiempo restante) puntos si logra capturar a todos antes del tiempo límite. Donde tiempo total son los 3 minutos de duración total posible y tiempo restante son los segundos que sobraban en el cronómetro.
 - **Puntuación de los alienígenas:**
--- Supervivencia: +((400/tiempo tota*Nl) * sumatorio del tiempo sobrevivido) puntos. Si todos los alienígenas sobreviven la partida completa de 180 segundos, el bando asegura una base fija de 400 puntos (independientemente de si es un uno contra uno  o un uno contra cuatro). A nivel técnico, el bando suma 2.22 puntos por cada segundo que pase con la horda completa en juego, reduciéndose proporcionalmente esta ganancia por cada baja.
--- Sabotaje Colectivo (Hasta 600 puntos): +27.27 puntos por cada bote de estamina robado con éxito entre todos los miembros del equipo, con un tope máximo acumulable de 600 puntos por este concepto (equivalente a robar un máximo de 22 botes colectivos de los 44 totales que pueden aparecer). Esto permite escalar el marcador grupal desde la base de 400 hasta el límite de 1000 puntos.
--- Penalización por captura: -(400/N) puntos en el marcador global del bando por cada jugador que sea atrapado por el superhéroe antes de que termine el tiempo. En un 1vs1 (N=1), ser capturado resta los 400 puntos íntegros de la base de supervivencia y hace terminar la partida de forma directa.
+  - **Supervivencia**: +((400/tiempo tota*Nl) * sumatorio del tiempo sobrevivido) puntos. Si todos los alienígenas sobreviven la partida completa de 180 segundos, el bando asegura una base fija de 400 puntos (independientemente de si es un uno contra uno  o un uno contra cuatro). A nivel técnico, el bando suma 2.22 puntos por cada segundo que pase con la horda completa en juego, reduciéndose proporcionalmente esta ganancia por cada baja.
+  - **Sabotaje Colectivo**: +27.27 puntos por cada bote de estamina robado con éxito entre todos los miembros del equipo, con un tope máximo acumulable de 600 puntos por este concepto (equivalente a robar un máximo de 22 botes colectivos de los 44 totales que pueden aparecer). Esto permite escalar el marcador grupal desde la base de 400 hasta el límite de 1000 puntos.
+  - **Penalización por captura**: -(400/N) puntos en el marcador global del bando por cada jugador que sea atrapado por el superhéroe antes de que termine el tiempo. En un 1vs1 (N=1), ser capturado resta los 400 puntos íntegros de la base de supervivencia y hace terminar la partida de forma directa.
 
 ### 3.4. Físicas y dificultad
 
