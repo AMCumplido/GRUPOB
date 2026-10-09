@@ -82,7 +82,9 @@ El juego se desarrolla en partidas asimétricas con una duración de tres minuto
 
 | Acción | Entrada del Mando (Steam Deck) | Descripción técnica |
 | :--- | :---: | :--- |
-| **Moverse / Desplazamiento** | ![](img/Xelu_Free_Controller&Key_Prompts/Steam_Deck/SteamDeck_Dpad.png) o Stick Izquierdo | Ejes de movimiento en el joystick o la cruceta direccional. |
+
+| **Moverse / Desplazamiento** | ![](img/Xelu_Free_Controller&Key_Prompts/Steam%20Deck/SteamDeck_Dpad.png) o Stick Izquierdo | Ejes de movimiento en el joystick o la cruceta direccional. |
+
 | **Correr (Solo Héroe)** | ![](img/Xelu_Free_Controller&Key_Prompts/Steam_Deck/SteamDeck_L1.png) | Se mantiene pulsado para correr al 200%. |
 | **Interactuar / Acción Especial** | ![](img/Xelu_Free_Controller&Key_Prompts/Steam_Deck/SteamDeck_A.png) | Activa trampillas/puertas (Aliens) o pulsa botones de rampas (Héroe). |
 | **Pausa / Menú** | ![](img/Xelu_Free_Controller&Key_Prompts/Steam_Deck/SteamDeck_Menu.png) | Detiene la partida y despliega el menú de opciones local. |
