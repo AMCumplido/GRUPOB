@@ -67,14 +67,16 @@ El juego se desarrolla en partidas asimétricas con una duración de tres minuto
 
 ### 3.2. Controles *pendiente de mapear dibujos
 
-- Teclado (limitado a 2 jugadores locales):
+#### 3.2.1. Teclado (Limitado a 2 jugadores locales)
+
 | Acción | Jugador 1 | Jugador 2 |
 | :--- | :---: | :---: |
-| Moverse a arriba | ![](img/Xelu_Free_Controller&Key_Prompts/Keyboard%20&%20Mouse/Dark/W_Key_Dark.png) | ![](img/Xelu_Free_Controller&Key_Prompts/Keyboard%20&%20Mouse/Dark/Arrow_Up_Key_Dark.png) |
-| Moverse abajo | ![](img/Xelu_Free_Controller&Key_Prompts/Keyboard%20&%20Mouse/Dark/S_Key_Dark.png) | ![](img/Xelu_Free_Controller&Key_Prompts/Keyboard%20&%20Mouse/Dark/Arrow_Down_Key_Dark.png) |
+| Moverse hacia arriba | ![](img/Xelu_Free_Controller&Key_Prompts/Keyboard%20&%20Mouse/Dark/W_Key_Dark.png) | ![](img/Xelu_Free_Controller&Key_Prompts/Keyboard%20&%20Mouse/Dark/Arrow_Up_Key_Dark.png) |
+| Moverse hacia abajo | ![](img/Xelu_Free_Controller&Key_Prompts/Keyboard%20&%20Mouse/Dark/S_Key_Dark.png) | ![](img/Xelu_Free_Controller&Key_Prompts/Keyboard%20&%20Mouse/Dark/Arrow_Down_Key_Dark.png) |
 | Moverse a la izquierda | ![](img/Xelu_Free_Controller&Key_Prompts/Keyboard%20&%20Mouse/Dark/A_Key_Dark.png) | ![](img/Xelu_Free_Controller&Key_Prompts/Keyboard%20&%20Mouse/Dark/Arrow_Left_Key_Dark.png) |
 | Moverse a la derecha | ![](img/Xelu_Free_Controller&Key_Prompts/Keyboard%20&%20Mouse/Dark/D_Key_Dark.png) | ![](img/Xelu_Free_Controller&Key_Prompts/Keyboard%20&%20Mouse/Dark/Arrow_Right_Key_Dark.png) |
 | Acción especial AAA | ![](img/Xelu_Free_Controller&Key_Prompts/Keyboard%20&%20Mouse/Dark/Space_Key_Dark.png) | ![](img/Xelu_Free_Controller&Key_Prompts/Keyboard%20&%20Mouse/Dark/Enter_Key_Dark.png) |
+
 
 - Mando:
 | Acción | Jugador 1 al 4  |
