@@ -113,6 +113,10 @@ El juego se desarrolla en partidas asimétricas con una duración de tres minuto
 La puntuación final determina la eficiencia de los jugadores al terminar la partida. Para garantizar un sistema equilibrado y competitivo, los puntos se escalan dinámicamente según el número total de alienígenas en la partida (N):
 
 - **Puntuación del superhéroe:**
+  - **Por captura exitosa:** +(400 / N) puntos por cada alienígena capturado (así capturar al 100% de la horda siempre otorgará una base fija de 400 puntos ya sea un uno contra uno o un uno contra cuatro).
+  - **Bonus de tiempo:** +((600 / tiempo_total) * tiempo_restante) puntos si logra capturar a todos antes del tiempo límite. Donde tiempo total son los 3 minutos de duración total posible y tiempo restante son los segundos que sobraban en el cronómetro.
+
+- **Puntuación del superhéroe:**
  - Por captura exitosa: +(400/N) puntos por cada alienígena capturado (así capturar al 100% de la horda siempre otorgará una base fija de 400 puntos ya sea un uno contra uno o un uno contra cuatro).
  - Bonus de tiempo: +((600/tiempo total) * tiempo restante) puntos si logra capturar a todos antes del tiempo límite. Donde tiempo total son los 3 minutos de duración total posible y tiempo restante son los segundos que sobraban en el cronómetro.
 - **Puntuación de los alienígenas:**
