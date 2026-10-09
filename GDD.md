@@ -139,7 +139,7 @@ El juego consta de tres escenarios diferentes que representan áreas diferentes 
 2. **Zona del hangar:** Consta de talleres de reparación, muelles de lanzamiento y almacenes de carga.
 3. **Zona de tareas:** Consta de laboratorios, áreas de entrenamiento y áreas de ocio (cine, recreativas, tiendas).
 
-![Mapa del escenario](img/mapa_escenario1.png)
+![Mapa del escenario](img/Escenarios/Escenario1.png)
 *Figura 2. Mapa del escenario 1.*
 ![Mapa del escenario](img/mapa_escenario2.png)
 *Figura 3. Mapa del escenario 2.*
