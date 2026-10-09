@@ -92,8 +92,6 @@ El juego se desarrolla en partidas asimétricas con una duración de tres minuto
 
 ### 3.3. Mecánicas
 
-> *Rúbrica — Jugabilidad / Mecánicas.*
-
 #### 3.3.1. Mecánicas principales
 
 - **Gestión de estamina (Superhéroe):** El superhéroe tiene una velocidad de movimiento mayor que la de los alienígenas. No obstante, este gasta energía constantemente al desplazarse andando, y más aún si se usa el botón de correr. Si su barra de estamina se vacía por completo, queda ralentizado a una velocidad bastante menor que la de los alienígenas hasta que consiga hacerse con un módulo de energía con el cual recuperará parte de esta estamina.
@@ -117,7 +115,6 @@ La puntuación final determina la eficiencia de los jugadores al terminar la par
 - **Puntuación del superhéroe:**
 -- Por captura exitosa: +(400/N) puntos por cada alienígena capturado (así capturar al 100% de la horda siempre otorgará una base fija de 400 puntos ya sea un uno contra uno o un uno contra cuatro).
 -- Bonus de tiempo: +((600/tiempo total) * tiempo restante) puntos si logra capturar a todos antes del tiempo límite. Donde tiempo total son los 3 minutos de duración total posible y tiempo restante son los segundos que sobraban en el cronómetro.
-
 - **Puntuación de los alienígenas:**
 -- Supervivencia: +((400/tiempo tota*Nl) * sumatorio del tiempo sobrevivido) puntos. Si todos los alienígenas sobreviven la partida completa de 180 segundos, el bando asegura una base fija de 400 puntos (independientemente de si es un uno contra uno  o un uno contra cuatro). A nivel técnico, el bando suma 2.22 puntos por cada segundo que pase con la horda completa en juego, reduciéndose proporcionalmente esta ganancia por cada baja.
 -- Sabotaje Colectivo (Hasta 600 puntos): +27.27 puntos por cada bote de estamina robado con éxito entre todos los miembros del equipo, con un tope máximo acumulable de 600 puntos por este concepto (equivalente a robar un máximo de 22 botes colectivos de los 44 totales que pueden aparecer). Esto permite escalar el marcador grupal desde la base de 400 hasta el límite de 1000 puntos.
@@ -129,13 +126,9 @@ La puntuación final determina la eficiencia de los jugadores al terminar la par
 -- Superhéroe (Velocidad variable con estamina): Cuenta con dos estados de movimiento orientados a la gestión de recursos. Su velocidad base al caminar (100% de velocidad lineal) consume estamina de forma moderada pero constante. Su velocidad de carrera (200% de velocidad lineal) le permite recortar distancias rápidamente pero triplica la tasa de consumo de su barra de energía.
 -- Alienígenas: Se desplazan a una velocidad única, fija e intermedia de 120%. Al no poseer una barra de resistencia, se mueven de forma constante sin sufrir ningún tipo de penalización ni desgaste. Eso les permite superar la caminata del héroe y obligarlo a gastar energía en carrera.
 -- Física de impulso en rampas: Al pisar una rampa, el héroe es impulsado a una velocidad de +50% si va andando y +25% si va corriendo. Siendo este el único suelo del mapa donde su consumo de estamina se detiene por completo.
-
 - **Colisiones e interacción física:** El escenario cuenta con colisiones sólidas bidimensionales en paredes, esquinas y puertas pesadas. Existe una caja de colisión estricta entre el superhéroe y los alienígenas; el contacto físico directo entre sus colisionadores activa la mecánica de captura de forma instantánea. Para evitar frustración y bloqueos en pasillos estrechos, las colisiones físicas entre jugadores del mismo bando alienígena están desactivadas, permitiéndoles atravesarse entre sí.
-
 - **Fuerzas de empuje:** Las puertas magnéticas y compuertas de la nave aplican un vector de fuerza de empuje físico hacia atrás si se cierran justo cuando un jugador intenta cruzarlas, desplazando al personaje y penalizando su posición en la persecución. Actuando como paredes normales cuando están completamente cerradas.
-
 - **Superficies de fricción modificada (Cintas transportadoras):** El suelo de la nave cuenta con zonas de cintas transportadoras industriales que aplican una fuerza de arrastre constante en una dirección fija. Si un jugador corre a favor de la cinta, su velocidad física se duplica; si corre en contra, experimenta una resistencia que reduce su velocidad a la mitad.
-
 - **Progresión de la dificultad:** Se plantean 3 mapas diferentes con complejidad creciente.
 
 ### 3.5. Escenario
@@ -156,8 +149,6 @@ El juego consta de tres escenarios diferentes que representan áreas diferentes 
 ---
 
 ## 4. Narrativa
-
-> *Rúbrica — Narrativa:* riqueza de la historia principal y de los personajes.
 
 ### 4.1. Historia
 
