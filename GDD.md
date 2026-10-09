@@ -154,13 +154,49 @@ El juego consta de tres escenarios diferentes que representan áreas diferentes 
 | Armario | No | Sí |
 | Sofá | Sí | No |
 | Tele | No | Sí |
+| Maceta planta (para los 3 escenarios) | No | No |
+| Cuadros paredes | No | No |
+| Ventana sala de mandos (se ve el planeta tierra) | No | No |
+| Ascensor (para los 3 escenarios) | No | No |
+
 3. **Zona del hangar:** Consta de talleres y laboratorios, muelle de lanzamiento y almacenes.
 ![Mapa del escenario](img/Escenarios/Escenario2.png)
 *Figura 3. Mapa del escenario 2.*
 
+| Objetos | Único | Tileable |
+| :--- | :---: | :---: |
+| Suelo escenario 2 | Sí | Sí |
+| Suelo de metal | Sí | Sí |
+| Caja 1 | No | No |
+| Caja 2 (alargada) | No | Sí |
+| Mesa de taller | No | Sí |
+| Mesa de laboratorio | No | Sí |
+| Naves | Si | No |
+| Maceta planta (para los 3 escenarios) | No | No |
+| Generador | No | No |
+| Planos proyectos ingenieria paredes | No | No |
+| Ascensor (para los 3 escenarios) | No | No |
+
 4. **Zona de tareas:** Consta de áreas de ocio como cine, tienda y cafetería.
 ![Mapa del escenario](img/Escenarios/Escenario3.png)
 *Figura 4. Mapa del escenario 3.*
+
+| Objetos | Único | Tileable |
+| :--- | :---: | :---: |
+| Suelo escenario 3 | Sí | Sí |
+| Suelo cine | Sí | Sí |
+| Alfombra morada | No | Sí |
+| Sillas cine | No | No |
+| Pantalla cine | Sí | No |
+| Palomitera | Sí | No |
+| Stand cine | Sí | Sí |
+| Carteles paredes | No | No |
+| Mesas con sillas cafetería | No | Sí |
+| Cartel cafetería | No | No |
+| Cajas registradora tienda | No | No |
+| Maniquís tienda | No | No |
+| Suelo provadores | No | Sí |
+| Ascensor (para los 3 escenarios) | No | No |
 
 ---
 
