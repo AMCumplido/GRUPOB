@@ -65,7 +65,7 @@ El juego se desarrolla en partidas asimétricas con una duración de tres minuto
 - **Condición de victoria del superhéroe**: su objetivo es neutralizar a todos los alienígenas de la nave antes de que se agote el tiempo de la partida. Pese a que su movimiento es más ágil, para lograr atraparlos debe optimizar su estamina siendo eficiente en la persecución y evitando que le roben los recursos de energías que se irán generando por el mapa.
 - **Condición de victoria de los alienígenas**: su objetivo es sobrevivir en equipo hasta que el temporizador de la partida llegue a cero. Lograrán esto saboteando el avance del héroe mediante el bloqueo temporal de puertas, el robo de botes de energía y  el uso de trampillas para huir del enemigo.
 
-### 3.2. Controles *pendiente de mapear dibujos
+### 3.2. Controles
 
 #### 3.2.1. Teclado (Limitado a 2 jugadores locales)
 
