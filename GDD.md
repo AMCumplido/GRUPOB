@@ -71,12 +71,12 @@ El juego se desarrolla en partidas asimétricas con una duración de tres minuto
 
 | Acción | Jugador 1 | Jugador 2 |
 | :--- | :---: | :---: |
-| Moverse hacia arriba | ![](img/Xelu_Free_Controller&Key_Prompts/Keyboard%20&%20Mouse/Dark/W_Key_Dark.png) | ![](img/Xelu_Free_Controller&Key_Prompts/Keyboard%20&%20Mouse/Dark/Arrow_Up_Key_Dark.png) |
-| Moverse hacia abajo | ![](img/Xelu_Free_Controller&Key_Prompts/Keyboard%20&%20Mouse/Dark/S_Key_Dark.png) | ![](img/Xelu_Free_Controller&Key_Prompts/Keyboard%20&%20Mouse/Dark/Arrow_Down_Key_Dark.png) |
-| Moverse a la izquierda | ![](img/Xelu_Free_Controller&Key_Prompts/Keyboard%20&%20Mouse/Dark/A_Key_Dark.png) | ![](img/Xelu_Free_Controller&Key_Prompts/Keyboard%20&%20Mouse/Dark/Arrow_Left_Key_Dark.png) |
-| Moverse a la derecha | ![](img/Xelu_Free_Controller&Key_Prompts/Keyboard%20&%20Mouse/Dark/D_Key_Dark.png) | ![](img/Xelu_Free_Controller&Key_Prompts/Keyboard%20&%20Mouse/Dark/Arrow_Right_Key_Dark.png) |
-| Acción especial AAA | ![](img/Xelu_Free_Controller&Key_Prompts/Keyboard%20&%20Mouse/Dark/Space_Key_Dark.png) | ![](img/Xelu_Free_Controller&Key_Prompts/Keyboard%20&%20Mouse/Dark/Enter_Key_Dark.png) |
-
+| Moverse hacia arriba | ![](img/Xelu_Free_Controller&Key_Prompts/Keyboard%20&%20Mouse/Dark/W_Key_Dark.png) | ![](img/Xelu_Free_Controller&Key_Prompts/Keyboard%20&%20Mouse/Dark/Arrow_Up_Key_Light.png) |
+| Moverse hacia abajo | ![](img/Xelu_Free_Controller&Key_Prompts/Keyboard%20&%20Mouse/Dark/S_Key_Dark.png) | ![](img/Xelu_Free_Controller&Key_Prompts/Keyboard%20&%20Mouse/Dark/Arrow_Down_Key_Light.png) |
+| Moverse a la izquierda | ![](img/Xelu_Free_Controller&Key_Prompts/Keyboard%20&%20Mouse/Dark/A_Key_Dark.png) | ![](img/Xelu_Free_Controller&Key_Prompts/Keyboard%20&%20Mouse/Dark/Arrow_Left_Key_Light.png) |
+| Moverse a la derecha | ![](img/Xelu_Free_Controller&Key_Prompts/Keyboard%20&%20Mouse/Dark/D_Key_Dark.png) | ![](img/Xelu_Free_Controller&Key_Prompts/Keyboard%20&%20Mouse/Dark/Arrow_Right_Key_Light.png) |
+| Interactuar con botones | ![](img/Xelu_Free_Controller&Key_Prompts/Keyboard%20&%20Mouse/Dark/E_Key_Dark.png) | ![](img/Xelu_Free_Controller&Key_Prompts/Keyboard%20&%20Mouse/Dark/Shift_Alt_Key_Light.png) |
+| Correr (Solo Superhéroe) | ![](img/Xelu_Free_Controller&Key_Prompts/Keyboard%20&%20Mouse/Dark/Space_Key_Dark.png) | - |
 
 - Mando:
 | Acción | Jugador 1 al 4  |
