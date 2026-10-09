@@ -138,22 +138,22 @@ El juego consta de tres escenarios diferentes que representan áreas diferentes 
 1. **Zona de habitaciones:** Consta de la sala de control de mandos, los dormitorios y la salas de descanso.
 ![Mapa del escenario](img/Escenarios/Escenario1.png)
 *Figura 2. Mapa del escenario 1.*
+
 | Objetos | Único | Tileable |
 | :--- | :---: | :---: |
-| Suelo escenario 1 | Si | Si |
-| Alfombra roja | No | Si |
-| Mesa de control gigante | Si | No |
-| Mesa basica | No | Si |
-| Sillas contol | No | No |
+| Suelo escenario 1 | Sí | Sí |
+| Alfombra roja | No | Sí |
+| Mesa de control gigante | Sí | No |
+| Mesa básica | No | Sí |
+| Sillas control | No | No |
 | Sillas simples | No | No |
 | Sillas de masaje | No | No |
 | Lámpara de pie | No | No |
-| Mesa de noche | No | Si |
+| Mesa de noche | No | Sí |
 | Cama | No | No |
-| Armario | No | Si |
-| Sofá | Si | No |
-| Tele | No | Si |
-
+| Armario | No | Sí |
+| Sofá | Sí | No |
+| Tele | No | Sí |
 3. **Zona del hangar:** Consta de talleres y laboratorios, muelle de lanzamiento y almacenes.
 ![Mapa del escenario](img/Escenarios/Escenario2.png)
 *Figura 3. Mapa del escenario 2.*
