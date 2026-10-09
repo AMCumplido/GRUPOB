@@ -220,7 +220,7 @@ Sin embargo, el superhéroe se enfrenta a un problema imprevisto: la atmósfera 
 
 - **Edad / origen:** Alrededor de 1001 años (aparenta mucho menos debido a sus células híbridas). Originario de la Tierra.
 - **Personalidad:** Pragmático, cínico y sumamente estresado. Carga con el peso del mundo sobre sus hombros, lo que le hace tomar decisiones frías y utilitarias, aunque en el fondo mantiene el corazón noble y protector que tenía en su juventud.
-- **Motivación:** Proteger la Tierra de cualquier amenaza cósmica a toda costa y asegurarse de que el presupuesto de la ARE no se desperdicie.
+- **Motivación:** Proteger la Tierra de cualquier amenaza a toda costa y asegurarse de que el presupuesto de la ARE no se desperdicie.
 - **Trasfondo:** En su adolescencia fue el superhéroe híbrido más poderoso del planeta, logrando salvarlo de la mayor catástrofe que la humanidad haya sufrido jamás. Era conocido por un título heroico que, con los años, la cultura popular terminó distorsionando en un sinfín de variantes cómicas debido a un antiguo meme de internet (lo que le valió su actual alias oficial en los archivos de seguridad). Tras la misteriosa desaparición del antiguo líder de la Agencia de Respuesta de Élite (ARE), heredó el control absoluto de la organización militar secreta. Actualmente ha dejado atrás los trajes de licra por los de corbata, gestionando las crisis globales desde la sombras.
 
 ---
