@@ -156,69 +156,72 @@ En el año 20XX, la Tierra respira tranquila bajo la protección de "Los Vigilan
 
 Al llegar el primer superhéroe, los alienígenas, que venían solo de turismo, comienzan a temer por sus vidas. Los turistas extraterrestres entran en pánico absoluto y empiezan a huir por toda la nave intentando aguantar hasta que esta aterrice de emergencia en la Tierra, si es que consiguen sobrevivir.
 
-Sin embargo, el superhéroe se enfrenta a un problema imprevisto: la atmósfera interna de la nave le debilita de forma continua, consumiendo su Hyper-Estamina a cada segundo. Al darse cuenta de que su agente se está quedando sin energía en pleno espacio exterior, el Director Innombrable interviene desde la base de la ARE hackeando los sistemas de la nave nodriza para enviarle suministros de emergencia. Cada 15 segundos, la agencia teletransporta botes de energía en coordenadas aleatorias del mapa. El problema es que los ingeniosos alienígenas interceptan estas señales y se dedican a robar los botes en la cara del héroe para dejarlo seco, sabiendo que si agotan sus suministros durante los 3 minutos de descenso, el superhéroe quedará indefenso y ellos podrán aterrizar a salvo.
+Sin embargo, el superhéroe se enfrenta a un problema imprevisto: la atmósfera interna de la nave le debilita de forma continua, consumiendo su estamina a cada segundo. Al darse cuenta de que su agente se está quedando sin energía en pleno espacio exterior, el Director Innombrable interviene desde la base de la ARE hackeando los sistemas de la nave nodriza para enviarle suministros de emergencia, botes de hyper-estamina. Cada 15 segundos, la agencia teletransporta botes de energía en coordenadas aleatorias del mapa. El problema es que los ingeniosos alienígenas interceptan estas señales y se dedican a robar los botes en la cara del héroe para dejarlo seco, sabiendo que si agotan sus suministros durante los 3 minutos de descenso, el superhéroe quedará indefenso y ellos podrán aterrizar a salvo.
 
 ### 4.2. Personajes
 
-#### Superhéroe 1
+#### Superhéroe 1: Capitán Órbita
 
-<img src="img/personaje_1.png" alt="Boceto del personaje AAA" width="250">
+<img src="img/personaje_1.png" alt="Boceto de Capitán Órbita" width="250">
 
-- **Edad / origen:** AAA.
-- **Personalidad:** AAA AAA AAA.
-- **Motivación:** AAA AAA AAA.
-- **Trasfondo:** AAA AAA AAA AAA AAA AAA AAA AAA AAA.
+- **Edad / origen:** 17 años. Originario de Metrópolis Central, Tierra.
+- **Personalidad:** Valiente, carismático y extremadamente optimista, aunque un poco egocéntrico y propenso a posar para fotos imaginarias en mitad del peligro.
+- **Motivación:** Demostrar que es el héroe más fuerte de "Los Vigilantes de la Órbita" y cumplir a rajatabla las órdenes del Director Innombrable para ganarse una medalla más para su colección.
+- **Trasfondo:** Al ser hijo de una humana y una entidad de origen extraterrestre, heredó una genética híbrida que le otorga capacidades físicas sobrehumanas. Sin embargo, debido a su juventud, sus células aún no procesan de forma estable la energía cósmica de su linaje; esto le obliga a depender de los botes de hyper-estamina que le envía la agencia para mantener sus poderes activos en el espacio.
 
-#### Superhéroe 2
+#### Superhéroe 2: Robo-Funk
 
-<img src="img/personaje_1.png" alt="Boceto del personaje AAA" width="250">
+<img src="img/personaje_1.png" alt="Boceto de Robo-Funk" width="250">
 
-- **Edad / origen:** AAA.
-- **Personalidad:** AAA AAA AAA.
-- **Motivación:** AAA AAA AAA.
-- **Trasfondo:** AAA AAA AAA AAA AAA AAA AAA AAA AAA.
+- **Edad / origen:** 5 años desde su reactivación por la ARE (Construido originalmente a finales del siglo XX). Origen: Búnker de desguace, Tierra.
+- **Personalidad:** Excéntrico, rítmico y con una confianza arrolladora. Siempre se comunica con frases ingeniosas y modismos de la cultura disco, manteniendo el estilo incluso en situaciones de altas tensiones.
+- **Motivación:** Demostrar que los androides tienen más estilo y efectividad que los humanos,. Y por supuesto, terminar rápido con la misión para poder regresar a la disco.
+- **Trasfondo:** Diseñado originalmente por un inventor chiflado a finales del milenio pasado, el prototipo permaneció criogenizado y oculto en un búnker subterráneo hasta que la ARE descubrió el proyecto. La agencia restauró sus sistemas y equipó su CPU con una inteligencia artificial avanzada de última generación, conservando su llamativo y retro-procesador capilar en forma de afro metálico. Aunque sus circuitos son puramente mecánicos, su batería interna funciona mediante un núcleo de fusión líquida que requiere un suministro constante de botes de hyper-estamina para no sobrecalentarse en el vacío del espacio.
 
-#### Superhéroe 3
+#### Superhéroe 3: Lady Void
 
-<img src="img/personaje_1.png" alt="Boceto del personaje AAA" width="250">
+<img src="img/personaje_1.png" alt="Boceto de Lady Void" width="250">
 
-- **Edad / origen:** AAA.
-- **Personalidad:** AAA AAA AAA.
-- **Motivación:** AAA AAA AAA.
-- **Trasfondo:** AAA AAA AAA AAA AAA AAA AAA AAA AAA.
+- **Edad / origen:** 24 años. Procedencia desconocida (encontrada en una anomalía cuántica en la estratosfera).
+- **Personalidad:** Elegante, sarcástica y sumamente calculadora. Es el miembro más serio y disciplinado del equipo, aunque tiene una debilidad por los trucos teatrales y la magia de escenario.
+- **Motivación:** Mantener el orden del cosmos y asegurar que las misiones de la ARE salgan perfectas para coleccionar las felicitaciones directas del Director Innombrable del cual está locamente enamorada.
+- **Trasfondo:** Su cuerpo físico se encuentra atrapado permanentemente en una dimensión de vacío cuántico, lo que la hace completamente invisible a la vista humana. Para poder manifestarse e interactuar en el mundo real, utiliza un elegante traje entallado de la alta sociedad y un icónico sombrero de copa flotante. Su invisibilidad y su capacidad para alterar el espacio a su alrededor la convierten en la espía perfecta de Los Vigilantes de la Órbita. Sin embargo, para mantener el anclaje cuántico de su traje flotante en el espacio profundo, depende por completo de las partículas de energía de los botes de hyper-estamina.
 
 #### Raza Alienígena 1: Bubble Beast
 
 <img src="img/personaje_2.png" alt="Boceto del personaje BBB" width="250">
 
-- **Edad / origen:** BBB.
-- **Personalidad:** BBB BBB BBB.
-- **Motivación:** BBB BBB BBB.
-- **Trasfondo:** BBB BBB BBB BBB BBB BBB BBB BBB BBB.
+- **Origen:** Originario del planeta acuoso Gloop-9.
+- **Personalidad:** Extremadamente curioso, asustadizo y alegre. Se emociona con facilidad y tiende a dar pequeños saltos cuando ve algo llamativo.
+- **Motivación:** Recolectar todos los botes de estamina posibles al confundirlos con refrescos espaciales gratis.
+- **Trasfondo:** Se apuntaron a este viaje de turismo intergaláctico con un único y absurdo objetivo: visitar las fuentes públicas de la Tierra para ver si el agua sabe mejor que la de su planeta. Trajeron hasta un gran tanque de agua para rellenarlo en caso de que la publicidad fuese cierta.
 
 #### Raza Alienígena 2: Ranma
 
 <img src="img/personaje_2.png" alt="Boceto del personaje BBB" width="250">
 
-- **Edad / origen:** BBB.
-- **Personalidad:** BBB BBB BBB.
-- **Motivación:** BBB BBB BBB.
-- **Trasfondo:** BBB BBB BBB BBB BBB BBB BBB BBB BBB.
+- **Origen:** Procedentes del Imperio Croac-croac gobernado por Croaac-Bonaparte I .
+- **Personalidad:** Hiperactiva, competitiva y con una alarmante falta de sentido del peligro. Le encanta vacilar al rival.
+- **Motivación:** Marear al superhéroe moviéndose velozmente por la nave mientras le roba los botes de estamina en sus narices.
+- **Trasfondo:** Compró su billete en este crucero espacial con la única y obsesiva intención de probar las moscas de la Tierra, ya que en los foros de internet intergalácticos leyó que los insectos terrestres tienen un delicioso sabor a “croac-barbacoa”.
 
-#### Raza Alienígena 3: Carapez
+#### Raza Alienígena 3: Caramoái
 
 <img src="img/personaje_2.png" alt="Boceto del personaje BBB" width="250">
 
-- **Edad / origen:** BBB.
-- **Personalidad:** BBB BBB BBB.
-- **Motivación:** BBB BBB BBB.
-- **Trasfondo:** BBB BBB BBB BBB BBB BBB BBB BBB BBB.
+- **Edad / origen:** Originarios del planeta Pascua, en la Constelación de la Cantera.
+- **Personalidad:** Testarudo, gruñón y de pocas palabras, se enfadan muchísimo si alguien camina más rápido que él.
+- **Motivación:** Bloquear los pasillos de la nave para impedir el paso del superhéroe y destrozar los botes de estamina por puro aburrimiento competitivo.
+- **Trasfondo:** Viaja a la Tierra en este crucero espacial con la firme intención de visitar las estatuas Moái de la Isla de Pascua humana para comprobar si de verdad son parientes lejanos suyos o si simplemente les copiaron el peinado.
 
 #### Director Innombrable (Personaje no jugable)
 
-<img src="img/enemigo_1.png" alt="Boceto del enemigo CCC" width="250">
+<img src="img/npc.png" alt="Boceto del Director Innombrable" width="250">
 
-CCC CCC CCC CCC CCC CCC CCC CCC.
+- **Edad / origen:** Alrededor de 1001 años (aparenta mucho menos debido a sus células híbridas). Originario de la Tierra.
+- **Personalidad:** Pragmático, cínico y sumamente estresado. Carga con el peso del mundo sobre sus hombros, lo que le hace tomar decisiones frías y utilitarias, aunque en el fondo mantiene el corazón noble y protector que tenía en su juventud.
+- **Motivación:** Proteger la Tierra de cualquier amenaza cósmica a toda costa y asegurarse de que el presupuesto de la ARE no se desperdicie.
+- **Trasfondo:** En su adolescencia fue el superhéroe híbrido más poderoso del planeta, logrando salvarlo de la mayor catástrofe que la humanidad haya sufrido jamás. Era conocido por un título heroico que, con los años, la cultura popular terminó distorsionando en un sinfín de variantes cómicas debido a un antiguo meme de internet (lo que le valió su actual alias oficial en los archivos de seguridad). Tras la misteriosa desaparición del antiguo líder de la Agencia de Respuesta de Élite (ARE), heredó el control absoluto de la organización militar secreta. Actualmente ha dejado atrás los trajes de licra por los de corbata, gestionando las crisis globales desde la sombras.
 
 ---
 
