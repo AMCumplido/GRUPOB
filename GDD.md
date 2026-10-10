@@ -309,9 +309,9 @@ El juego utiliza un estilo **AAA** (p. ej. *pixel art* de 32×32 píxeles) porqu
 
 > *Rúbrica — Imagen / Aspectos técnicos:* uso de cámara y 2D/3D.
 
-- **Representación:** 2D, vista AAA (lateral / cenital / isométrica).
-- **Cámara:** AAA (fija mostrando todo el escenario / sigue a ambos jugadores con *zoom* dinámico / pantalla dividida...).
-- **Resolución base:** AAA × AAA píxeles.
+- **Representación:** 2D, vista cenital.
+- **Cámara:** fija mostrando todo el escenario.
+- **Resolución base:** 1920 × 1080 píxeles.
 
 ### 5.5. Inspiración artística y cultural
 
