@@ -214,7 +214,7 @@ Sin embargo, el superhéroe se enfrenta a un problema imprevisto: la atmósfera 
 
 #### Superhéroe 1: Capitán Órbita
 
-<img src="img/personaje_1.png" alt="Boceto de Capitán Órbita" width="250">
+<img src="img/Diseño_capitanOrbita.png" alt="Boceto de Capitán Órbita" width="250">
 
 - **Edad / origen:** 17 años. Originario de Metrópolis Central, Tierra.
 - **Personalidad:** Valiente, carismático y extremadamente optimista, aunque un poco egocéntrico y propenso a posar para fotos imaginarias en mitad del peligro.
@@ -223,7 +223,7 @@ Sin embargo, el superhéroe se enfrenta a un problema imprevisto: la atmósfera 
 
 #### Superhéroe 2: Robo-Funk
 
-<img src="img/personaje_1.png" alt="Boceto de Robo-Funk" width="250">
+<img src="img/Diseño_robo-funk.png" alt="Boceto de Robo-Funk" width="250">
 
 - **Edad / origen:** 5 años desde su reactivación por la ARE (Construido originalmente a finales del siglo XX). Origen: Búnker de desguace, Tierra.
 - **Personalidad:** Excéntrico, rítmico y con una confianza arrolladora. Siempre se comunica con frases ingeniosas y modismos de la cultura disco, manteniendo el estilo incluso en situaciones de altas tensiones.
@@ -232,7 +232,7 @@ Sin embargo, el superhéroe se enfrenta a un problema imprevisto: la atmósfera 
 
 #### Superhéroe 3: Lady Void
 
-<img src="img/personaje_1.png" alt="Boceto de Lady Void" width="250">
+<img src="img/Diseño_ladyVoid.png" alt="Boceto de Lady Void" width="250">
 
 - **Edad / origen:** 24 años. Procedencia desconocida (encontrada en una anomalía cuántica en la estratosfera).
 - **Personalidad:** Elegante, sarcástica y sumamente calculadora. Es el miembro más serio y disciplinado del equipo, aunque tiene una debilidad por los trucos teatrales y la magia de escenario.
@@ -241,7 +241,7 @@ Sin embargo, el superhéroe se enfrenta a un problema imprevisto: la atmósfera 
 
 #### Raza Alienígena 1: Bubble Beast
 
-<img src="img/personaje_2.png" alt="Boceto del personaje BBB" width="250">
+<img src="img/Deseño_bubbleBeast.png" alt="Boceto del personaje Bubble Beast" width="250">
 
 - **Origen:** Originario del planeta acuoso Gloop-9.
 - **Personalidad:** Extremadamente curioso, asustadizo y alegre. Se emociona con facilidad y tiende a dar pequeños saltos cuando ve algo llamativo.
@@ -250,7 +250,7 @@ Sin embargo, el superhéroe se enfrenta a un problema imprevisto: la atmósfera 
 
 #### Raza Alienígena 2: Ranma
 
-<img src="img/personaje_2.png" alt="Boceto del personaje BBB" width="250">
+<img src="img/Diseñi_ranma.png" alt="Boceto del personaje Ranma" width="250">
 
 - **Origen:** Procedentes del Imperio Croac-croac gobernado por Croaac-Bonaparte I .
 - **Personalidad:** Hiperactiva, competitiva y con una alarmante falta de sentido del peligro. Le encanta vacilar al rival.
@@ -259,7 +259,7 @@ Sin embargo, el superhéroe se enfrenta a un problema imprevisto: la atmósfera 
 
 #### Raza Alienígena 3: Caramoái
 
-<img src="img/personaje_2.png" alt="Boceto del personaje BBB" width="250">
+<img src="img/Deseño_caramoái.png" alt="Boceto del personaje Caramoái" width="250">
 
 - **Edad / origen:** Originarios del planeta Pascua, en la Constelación de la Cantera.
 - **Personalidad:** Testarudo, gruñón y de pocas palabras, se enfadan muchísimo si alguien camina más rápido que él.
@@ -320,7 +320,7 @@ El juego utiliza un estilo cartoon porque se desea resaltar la funcionalidad sob
 *Figura 5. Moodboard con las referencias visuales para los personajes.*
 
 - Simpsom (serie): tomamos ideas de los alieneigenas [1].
-- Moai (referencia cultural): tomamos de referencia la expresión facial [2].
+- Moái (referencia cultural): tomamos de referencia la expresión facial [2].
 - Linterna Verde: La serie animada (serie): tomamos ideas de los alieneigenas [3].
 - Superman (comic): tomamos como ejemplo la iconografía asociada al heroe [4].
 - Atelier of Witch Hat (serie): tomamos como referencia la idea del personaje Sasaran [5].
