@@ -268,7 +268,7 @@ Sin embargo, el superhéroe se enfrenta a un problema imprevisto: la atmósfera 
 
 #### Director Innombrable (Personaje no jugable)
 
-<img src="img/npc.png" alt="Boceto del Director Innombrable" width="250">
+<img src="img/Diseño_npc.png" alt="Boceto del Director Innombrable" width="250">
 
 - **Edad / origen:** Alrededor de 1001 años (aparenta mucho menos debido a sus células híbridas). Originario de la Tierra.
 - **Personalidad:** Pragmático, cínico y sumamente estresado. Carga con el peso del mundo sobre sus hombros, lo que le hace tomar decisiones frías y utilitarias, aunque en el fondo mantiene el corazón noble y protector que tenía en su juventud.
