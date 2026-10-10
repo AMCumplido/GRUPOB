@@ -317,7 +317,7 @@ El juego utiliza un estilo cartoon porque se desea resaltar la funcionalidad sob
 
 > *Rúbrica — Imagen / Inspiración:* referentes artísticos y culturales y vínculo con otros trabajos.
 
-![Moodboard de inspiración](img/moodboard_inspiracion.png)
+![Moodboard de inspiración](img/moodboard_personajes.png)
 
 *Figura 5. Moodboard con las referencias visuales.*
 
