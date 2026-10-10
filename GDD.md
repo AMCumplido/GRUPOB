@@ -289,9 +289,9 @@ Sin embargo, el superhéroe se enfrenta a un problema imprevisto: la atmósfera 
 
 ### 5.2. Estilo visual
 
-> *Rúbrica — Imagen / Estilo visual:* pixel art, cartoon, vectorial, etc.
+> *Rúbrica — Imagen / Estilo visual: cartoon
 
-El juego utiliza un estilo **AAA** (p. ej. *pixel art* de 32×32 píxeles) porque AAA AAA AAA.
+El juego utiliza un estilo cartoon porque se desea resaltar la funcionalidad sobre el detalle, se busca la simplicidad funcional.
 
 ### 5.3. Uso de colores
 
