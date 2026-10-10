@@ -315,15 +315,17 @@ El juego utiliza un estilo cartoon porque se desea resaltar la funcionalidad sob
 
 ### 5.5. Inspiración artística y cultural
 
-> *Rúbrica — Imagen / Inspiración:* referentes artísticos y culturales y vínculo con otros trabajos.
-
 ![Moodboard de inspiración](img/Moodboard_personajes.png)
 
-*Figura 5. Moodboard con las referencias visuales.*
+*Figura 5. Moodboard con las referencias visuales para los personajes.*
 
-- **AAA** (videojuego, año): tomamos AAA AAA AAA [1].
-- **BBB** (película / cómic / movimiento artístico): BBB BBB BBB [2].
-- **CCC** (referencia cultural): CCC CCC CCC.
+- Simpsom (serie): tomamos ideas de los alieneigenas [1].
+- Moai (referencia cultural): tomamos de referencia la expresión facial [2].
+- Linterna Verde: La serie animada (serie): tomamos ideas de los alieneigenas [3].
+- Superman (comic): tomamos como ejemplo la iconografía asociada al heroe [4].
+- Atelier of Witch Hat (serie): tomamos como referencia la idea del personaje Sasaran [5].
+- Esquimal del siglo XX (referencia cultural): tomamos la ropa como referencia [6].
+
 
 ### 5.6. Bocetos de personajes y pantallas
 
