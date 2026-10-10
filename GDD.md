@@ -289,8 +289,6 @@ Sin embargo, el superhéroe se enfrenta a un problema imprevisto: la atmósfera 
 
 ### 5.2. Estilo visual
 
-> *Rúbrica — Imagen / Estilo visual: cartoon
-
 El juego utiliza un estilo cartoon porque se desea resaltar la funcionalidad sobre el detalle, se busca la simplicidad funcional.
 
 ### 5.3. Uso de colores
@@ -306,8 +304,6 @@ El juego utiliza un estilo cartoon porque se desea resaltar la funcionalidad sob
 - **Objetos (`#F5C518`):** AAA AAA AAA.
 
 ### 5.4. Aspectos técnicos: cámara y representación
-
-> *Rúbrica — Imagen / Aspectos técnicos:* uso de cámara y 2D/3D.
 
 - **Representación:** 2D, vista cenital.
 - **Cámara:** fija mostrando todo el escenario.
@@ -421,12 +417,6 @@ flowchart TD
     N -->|Revancha| H
     N -->|Volver al Menú| B
 ```
-
-**Opción 2 — Imagen** exportada desde draw.io, Excalidraw, Figma...:
-
-![Diagrama de flujo del juego](img/diagrama_flujo.png)
-
-*Figura 9. Diagrama de flujo entre pantallas.*
 
 ---
 
