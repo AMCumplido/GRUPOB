@@ -1,6 +1,6 @@
 # GRUPOB
 <p align="center">
-  <img src="img/Diseño_Logo.png" alt="Logotipo de AAA" width="400">
+  <img src="img/Diseño_Logo.png" alt="Logotipo de Alien Export" width="400">
 </p>
 
 # Alien Expel
