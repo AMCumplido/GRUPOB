@@ -241,7 +241,7 @@ Sin embargo, el superhéroe se enfrenta a un problema imprevisto: la atmósfera 
 
 #### Raza Alienígena 1: Bubble Beast
 
-<img src="img/Deseño_bubbleBeast.png" alt="Boceto del personaje Bubble Beast" width="250">
+<img src="img/Diseño_bubbleBeast.png" alt="Boceto del personaje Bubble Beast" width="250">
 
 - **Origen:** Originario del planeta acuoso Gloop-9.
 - **Personalidad:** Extremadamente curioso, asustadizo y alegre. Se emociona con facilidad y tiende a dar pequeños saltos cuando ve algo llamativo.
@@ -250,7 +250,7 @@ Sin embargo, el superhéroe se enfrenta a un problema imprevisto: la atmósfera 
 
 #### Raza Alienígena 2: Ranma
 
-<img src="img/Diseñi_ranma.png" alt="Boceto del personaje Ranma" width="250">
+<img src="img/Diseño_ranma.png" alt="Boceto del personaje Ranma" width="250">
 
 - **Origen:** Procedentes del Imperio Croac-croac gobernado por Croaac-Bonaparte I .
 - **Personalidad:** Hiperactiva, competitiva y con una alarmante falta de sentido del peligro. Le encanta vacilar al rival.
@@ -259,7 +259,7 @@ Sin embargo, el superhéroe se enfrenta a un problema imprevisto: la atmósfera 
 
 #### Raza Alienígena 3: Caramoái
 
-<img src="img/Deseño_caramoái.png" alt="Boceto del personaje Caramoái" width="250">
+<img src="img/Diseño_caramoái.png" alt="Boceto del personaje Caramoái" width="250">
 
 - **Edad / origen:** Originarios del planeta Pascua, en la Constelación de la Cantera.
 - **Personalidad:** Testarudo, gruñón y de pocas palabras, se enfadan muchísimo si alguien camina más rápido que él.
