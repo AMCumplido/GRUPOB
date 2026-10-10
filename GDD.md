@@ -281,8 +281,6 @@ Sin embargo, el superhéroe se enfrenta a un problema imprevisto: la atmósfera 
 
 ### 5.1. Logotipo
 
-> *Rúbrica — Imagen / Logotipo.*
-
 ![Logotipo del juego](img/Diseño_Logo.png)
 
 *Figura 3. Logotipo del juego. Concepto: Representa los dos bandos del juego con sus dos colores característicos, verde para los alienígenas y morado para los héroes.*
