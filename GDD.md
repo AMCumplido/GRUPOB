@@ -34,7 +34,7 @@ Nuestro producto está orientado a entusiastas de los juegos de fiesta para mult
 - Característica diferencial 2: El juego elimina el terror y tensión de otros títulos del género de pilla pilla para ofrecer una experiencia más social, desenfadada y de ritmo frenético, ideal para todo tipo de audiencias.
 - Característica diferencial 3: Para potenciar la identidad de los jugadores nuestro juego cuenta con diferentes skins de superhéroes y alienígenas.
 
-![Imagen promocional / key art del juego](img/portada_presentacion.png)
+![Imagen promocional / key art del juego](img/Diseño_portada.png)
 
 *Figura 1. Imagen promocional del juego.*
 
