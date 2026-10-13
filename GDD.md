@@ -359,24 +359,27 @@ Los bocetos de los personajes se encuentran en el apartado [4.2](#42-personajes)
 
 **Menú principal**
 
-![Boceto del menú principal](img/boceto_menu_principal.png)
+![Boceto del menú principal](img/Boceto_MenuPrincipal.png)
 
-*Figura 6. Menú principal: AAA AAA AAA.*
+*Figura 6. Menú principal: Muestra el título y las opciones básicas*
 
 **Pantalla de juego (HUD)**
 
-![Boceto de la pantalla de juego](img/boceto_pantalla_juego.png)
+![Boceto de la pantalla de juego](img/Boceto_PantallaJuego_Heroes.png)
 
-*Figura 7. Pantalla de juego: AAA AAA AAA.*
+*Figura 7. Pantalla de juego: se muestra el mapa y la estamina del personaje.*
+![Boceto de la pantalla de juego](img/Boceto_PantallaJuego_Aliens.png)
+
+*Figura 8. Pantalla de juego: se muestra el mapa y las vidas del jugador.*
 
 **Ajustes y fin de partida**
 
 <p align="center">
-  <img src="img/boceto_ajustes.png" alt="Boceto de ajustes" width="45%">
-  <img src="img/boceto_fin_partida.png" alt="Boceto de fin de partida" width="45%">
+  <img src="img/Boceto_Ajustes.png" alt="Boceto de ajustes" width="45%">
+  <img src="img/Boceto_FinPartida.png" alt="Boceto de fin de partida" width="45%">
 </p>
 
-*Figura 8. Pantalla de ajustes (izquierda) y fin de partida (derecha).*
+*Figura 9. Pantalla de ajustes (izquierda) y fin de partida (derecha).*
 
 ### 7.2. Diagrama de flujo
 
