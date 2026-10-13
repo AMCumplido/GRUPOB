@@ -293,13 +293,13 @@ El juego utiliza un estilo cartoon porque se desea resaltar la funcionalidad sob
 
 > *Rúbrica — Imagen / Descripción visual:* uso de colores.
 
-![Paleta de colores](img/paleta_colores.png)
+![Paleta de colores](img/Paleta.png)
 
 *Figura 4. Paleta de colores del juego.*
 
-- **Fondo (`#1B1F3B`):** AAA AAA AAA.
-- **Jugador 1 (`#E94560`) / Jugador 2 (`#0F9BD7`):** colores complementarios para distinguir fácilmente a cada jugador.
-- **Objetos (`#F5C518`):** AAA AAA AAA.
+- **Fondo (`#1B1F3B`):** color solido oscuro que hace resaltar a los personajes.
+- **Héroes (`#E94560`) / Aleinígenas 2 (`#0F9BD7`):** colores complementarios para distinguir fácilmente a cada jugador.
+- **Objetos héroes (`#F5C518`) / Objetos alienígenas (``):** colores complementarios para distinguir fácilmente.
 
 ### 5.4. Aspectos técnicos: cámara y representación
 
