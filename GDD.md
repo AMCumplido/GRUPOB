@@ -46,7 +46,7 @@ Nuestro producto está orientado a entusiastas de los juegos de fiesta para mult
 | :--- | :--- |
 | **Título** | Alien Expel |
 | **Género** | Juego de fiesta |
-| **Número de jugadores** | Hasta 4 jugadores (en red o local, tiempo real) |
+| **Número de jugadores** | Hasta 5 jugadores en red o local con mando, hasta 2 jugadores con un solo teclado |
 | **Público objetivo** | Casuales de todas las edades |
 | **Clasificación PEGI** | PEGI 3 (no contiene violencia) |
 | **Plataforma** | Navegador web (PC), desarrollado con Phaser 3 |
