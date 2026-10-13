@@ -297,9 +297,9 @@ El juego utiliza un estilo cartoon porque se desea resaltar la funcionalidad sob
 
 *Figura 4. Paleta de colores del juego.*
 
-- **Fondo (`#1B1F3B`):** color solido oscuro que hace resaltar a los personajes.
-- **Héroes (`#E94560`) / Aleinígenas 2 (`#0F9BD7`):** colores complementarios para distinguir fácilmente a cada jugador.
-- **Objetos héroes (`#F5C518`) / Objetos alienígenas (``):** colores complementarios para distinguir fácilmente.
+- **Fondo (`#33373F`):** color solido oscuro que hace resaltar a los personajes.
+- **Héroes (`#8A4ADF`) / Aleinígenas 2 (`#93D928`):** colores complementarios para distinguir fácilmente a cada jugador.
+- **Objetos héroes (`#4A5CDF`) / Objetos alienígenas (`DFCD4A`):** colores complementarios para distinguir fácilmente.
 
 ### 5.4. Aspectos técnicos: cámara y representación
 
