@@ -444,6 +444,83 @@ Por el momento no se plantea el uso de kitstarters ni ningún modo de monetizaci
 | Tráiler oficial y Lanzamiento del juego |	Instagram / X / BlueSky / YouTube / TikTok | Dia de la publicación del juego |
 - **Eslogan provisional:** ¡Sálvese quien pueda! Convierte tu salón en el espacio exterior con la invasión alienígena más caótica y divertida para jugar en grupo.
 
+## 9. Plan de marketing y lanzamiento
+
+### 9.1. Introducción
+
+Con los contenidos queríamos que se notara lo que es **Alien Expel**: un pilla-pilla caótico y muy divertido, con publicaciones para etiquetar a tus 4 amigos y montar partida.
+
+Aun así, lo que más funciona con diferencia son los **clips de gameplay**: persecuciones al límite, el héroe quedándose sin energía justo en el último segundo y los alienígenas robándole los botes de estamina en su cara. Todo ello con el estilo cartoon 2D y el isotipo del juego, para que resulte más llamativo.
+
+Hemos planteado un **sistema de 4 fases** para llevar a cabo una campaña de marketing sencilla con la que captar audiencia a nivel local. Los puntos clave son:
+
+- **Sistema de invitaciones** con recompensas de elementos personalizables.
+- **Contenido de corta duración** para redes sociales como TikTok, Instagram y YouTube Shorts.
+
+### 9.2. Captación de audiencia
+
+- **Eslogan:** *"1 héroe. 4 alienígenas. 3 minutos de caos."*
+
+### 9.3. Monetización
+
+| Aspecto | Decisión | Motivo |
+| :--- | :--- | :--- |
+| Acceso | Gratis en el navegador | Enlaces de sala para compartir y entrar rápido |
+| Contenido de pago | Solo skins cosméticas y emotes | Sin mejoras de estadísticas, el juego sigue siendo justo |
+| Cajas de botín | No | El público incluye todas las edades |
+
+### 9.4. Visibilidad
+
+| Acción | Canal | Descripción |
+| :--- | :--- | :--- |
+| Clips cortos | TikTok / Instagram Reels / YouTube Shorts | Persecuciones en los "últimos 10 segundos" y robos alienígenas, con un botón de clip dentro del juego |
+| Streamers | Twitch / YouTube | El streamer juega como el héroe mientras sus espectadores son los alienígenas |
+| Portales web | itch.io / CrazyGames / Poki | Publicación del juego en portales de juegos de navegador |
+| Comunidad | Discord | Espacio para organizar partidas y compartir clips |
+| Publicaciones de etiqueta | Instagram / TikTok | Posts que piden "etiqueta a tus 4 amigos" |
+| Carteles con QR | Eventos universitarios | Acceso directo al juego desde el cartel |
+
+### 9.5. Implementación
+
+**Lanzamiento en redes**
+
+```mermaid
+flowchart LR
+    A[Teaser] --> B[Presentación]
+    B --> C[Lanzamiento gratuito]
+    C --> D[Concurso de clips]
+```
+
+| Fase | Objetivo |
+| :--- | :--- |
+| 1. Teaser | Generar curiosidad |
+| 2. Presentación | Mostrar el juego y su mecánica |
+| 3. Lanzamiento gratuito | Abrir el juego a todo el público |
+| 4. Concurso de clips | Fomentar contenido creado por los jugadores |
+
+**Interacción por cada 10.000 jugadores**
+
+![Interacción por cada 10.000 jugadores](img/Grafico_Interaccion.png)
+
+*Figura 10. Interacción por cada 10.000 jugadores. Tasas supuestas para juegos web casuales [1] [2] [3] [4] [5] [6].*
+
+Al iniciar la estrategia de lanzamiento del juego, comenzaremos con **acciones gratuitas**. Las acciones gratuitas, como los anuncios y las invitaciones, llegan a un tercio o más de los jugadores, mientras que las compras se mantienen bajas, como cabe esperar en un free-to-play.
+
+**Visibilidad por cada 10.000 jugadores**
+
+![Visibilidad por cada 10.000 jugadores](img/Grafico_Visibilidad.png)
+
+*Figura 11. Visibilidad por cada 10.000 jugadores.*
+
+### 9.6. Fuentes
+
+- [1] GamesBrief – *ARPDAUs, conversion rates and other new datapoints*.
+- [2] GamesBrief – *Zynga's conversion rate*.
+- [3] MCV UK – *Valve perplexed by conversion rate for Team Fortress 2*.
+- [4] Layer.ai – *Rewarded video glossary*.
+- [5] PocketGamer.biz – *Next Games 80% opt-in rate*.
+- [6] AppLixir – *Optimizing the right reward for video ads*.
+
 ---
 
 ## 9. Referencias
