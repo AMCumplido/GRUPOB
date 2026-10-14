@@ -429,8 +429,11 @@ Para acceder a todos los canales, avances y contenidos de Alien Expel de forma c
 Por el momento no se plantea el uso de kitstarters ni ningún modo de monetización porque el proyecto ha sido concevido inicialmente en el marco académico de la asignatura Juegos en Ren del grado de diseño y desarrollo de videojuegos.
 
 - **Público y mensaje clave:** • ugadores casuales, grupos de amigos y familias que buscan diversión rápida, risas y mecánicas accesibles a través de videojuegos cooperativos o competitivos locales (party games). El mensaje clave se centrará en el caos divertido, la cooperación caótica (o los piques entre amigos) y el humor.
+
 - **Canales:** Instagram, X, BlueSky, TikTok y YouTube serán las redes que emplearemos. Por otro lado plantemaos las plataformas de Itch.io y Game Jolt como medios donde alojar al juego. Y todo quedará recogido en un perfil de linktree para facilitar su acceso.
+
 - **Contenido y calendario:**
+
 | Contenido | Redes Sociales | Fecha estimada |
 | :--- | :--- | :--- |
 | Teaser de un nuevo proyecto |	Instagram / X / BlueSky / YouTube / TikTok | Última semana de Octubre |
@@ -442,6 +445,7 @@ Por el momento no se plantea el uso de kitstarters ni ningún modo de monetizaci
 | Muestra de los diferentes niveles y modos |	Instagram / X / BlueSky | Primera semana de Diciembre |
 | Publicación del soundtrack del juego |	YouTube | Dias antes de la publicación del juego |
 | Tráiler oficial y Lanzamiento del juego |	Instagram / X / BlueSky / YouTube / TikTok | Dia de la publicación del juego |
+
 - **Eslogan provisional:** ¡Sálvese quien pueda! Convierte tu salón en el espacio exterior con la invasión alienígena más caótica y divertida para jugar en grupo.
 
 ## 9. Plan de marketing y lanzamiento
@@ -525,8 +529,5 @@ Al iniciar la estrategia de lanzamiento del juego, comenzaremos con **acciones g
 
 ## 9. Referencias
 
-> *Rúbrica — Documento / Referencias.* Usad un formato consistente (p. ej. APA) y citadlas en el texto con [1], [2]...
-
-[1] AAA, A. (Año). *Título de la obra*. Editorial / Estudio. URL
-
-[2] BBB, B. (Año). *Título del artículo*. Revista, volumen(número), páginas. https://doi.org/AAA
+[1] Nintendo EAD. (2001). Luigi's Mansion [Videojuego]. Nintendo. Recuperado de Nintendo Official Site.
+[2] Kirkman, R., Walker, C. y Ottley, R. (2003-2018). Invincible [Cómic]. Image Comics. Recuperado de Image Comics Official Store.
