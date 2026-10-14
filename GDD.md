@@ -289,8 +289,6 @@ El juego utiliza un estilo cartoon porque se desea resaltar la funcionalidad sob
 
 ### 5.3. Uso de colores
 
-> *Rúbrica — Imagen / Descripción visual:* uso de colores.
-
 ![Paleta de colores](img/Paleta.png)
 
 *Figura 4. Paleta de colores del juego.*
@@ -321,15 +319,11 @@ El juego utiliza un estilo cartoon porque se desea resaltar la funcionalidad sob
 
 ### 5.6. Bocetos de personajes y pantallas
 
-> *Rúbrica — Imagen / Bocetos:* interfaz de menú, pantallas y personajes.
-
 Los bocetos de los personajes se encuentran en el apartado [4.2](#42-personajes) y los de las pantallas en el apartado [7.1](#71-pantallas).
 
 ---
 
 ## 6. Sonido
-
-> *Rúbrica — Sonido:* música y efectos.
 
 ### 6.1. Banda sonora
 
@@ -381,8 +375,6 @@ Los bocetos de los personajes se encuentran en el apartado [4.2](#42-personajes)
 *Figura 9. Pantalla de ajustes (izquierda) y fin de partida (derecha).*
 
 ### 7.2. Diagrama de flujo
-
-> *Rúbrica — Documento / Diagrama de flujo.* Podéis usar Mermaid (GitHub lo renderiza directamente) o una imagen exportada.
 
 **Opción 1 — Mermaid** (se dibuja automáticamente en GitHub):
 
