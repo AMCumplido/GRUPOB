@@ -2,7 +2,7 @@
 
 [← Volver al README](README.md)
 
-**Grupo B** · Alejandro Miguel Cumplido Alastuey, Álvaro Cardos Serrano, Estanislao de Koska Castrillón Román
+**Grupo B** · Alejandro Miguel Cumplido Alastuey, Álvaro Cardos Serrano, Estanislao de Koska Castrillón Román, Daniel Delgado Pérez
 
 ## Índice
 
