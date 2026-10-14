@@ -532,6 +532,13 @@ Al iniciar la estrategia de lanzamiento del juego, comenzaremos con **acciones g
 ---
 
 ## 9. Referencias
+El diseño general y el concepto asimétrico de Alien Expel toma como bases de inspiración iniciales las mecánicas de persecución de Luigi's Mansion [7], así como el tono heroico y los elementos narrativos visuales de la obra Invincible [8]. A continuación se listan todas las referencias del proyecto.
 
-[1] Nintendo EAD. (2001). Luigi's Mansion [Videojuego]. Nintendo. Recuperado de Nintendo Official Site.
-[2] Kirkman, R., Walker, C. y Ottley, R. (2003-2018). Invincible [Cómic]. Image Comics. Recuperado de Image Comics Official Store.
+[1] Groening, M. (1989-presente). The Simpsons [Serie de televisión]. 20th Television. Recuperado de Disney+ Streaming.
+[2] UNESCO World Heritage Centre. (s. f.). Moai: Rapa Nui National Park [Referencia cultural]. UNESCO. Recuperado de UNESCO World Heritage.
+[3] Timm, B., Krieg, J. y Volpe, G. (2011-2013). Green Lantern: The Animated Series [Serie de televisión]. Warner Bros. Animation. Recuperado de Warner Bros. Official.
+[4] Siegel, J. y Shuster, J. (1938-presente). Superman [Cómic]. DC Comics. Recuperado de DC Comics Official.
+[5] Shirahama, K. (2016-presente). Atelier of Witch Hat (Tongari Bōshi no Atelier) [Manga]. Kodansha. Recuperado de Kodansha US.
+[6] Museo Nacional de Antropología. (s. f.). Indumentaria tradicional Inuit del siglo XX [Referencia cultural]. Ministerio de Cultura. Recuperado de Museo Nacional de Antropología.
+[7] Nintendo EAD. (2001). Luigi's Mansion [Videojuego]. Nintendo. Recuperado de Nintendo Official Site.
+[8] Kirkman, R., Walker, C. y Ottley, R. (2003-2018). Invincible [Cómic]. Image Comics. Recuperado de Image Comics Official Store.
