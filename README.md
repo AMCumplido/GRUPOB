@@ -15,9 +15,12 @@ extraterrestres deben evitar que el superhéroe intruso en su nave les pille.
 
 ## Equipo de desarrollo
 
+| Integrante del proyecto | Correo | Usuario GitHub |
+| :--- | :--- | :--- |
 | Alejandro Miguel Cumplido Alastuey | am.cumplidoa.2024@alumnos.urjc.es | AMCumplido |
 | Álvaro Cardoso Serrano | a.cardoso.2024@alumnos.urjc.es | Roalvo15-YT |
 | Estanislao de Koska Castrillón Román | ek.castrillon.2022@alumnos.urjc.es | Estcastri |
+| Daniel Delgado Pérez | d.delagdo.2018@alumnos.urjc.es | D-Delni |
 
 **Repositorio:** `https://github.com/AMCumplido/GRUPOB.git`
 
