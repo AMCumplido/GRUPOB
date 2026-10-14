@@ -48,6 +48,7 @@ Apartados principales:
 ## Fases del proyecto
 
 | Fase | Contenido | Estado |
+| :--- | :--- | :--- |
 | Fase 1 | Equipo, temática y GDD | ✅ Entregada (tag `fase-1`) |
 | Fase 2 | Juego en local | ⏳ Pendiente |
 | Fase 3 | API REST | ⏳ Pendiente |
