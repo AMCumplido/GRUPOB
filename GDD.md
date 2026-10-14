@@ -337,19 +337,20 @@ Los bocetos de los personajes se encuentran en el apartado [4.2](#42-personajes)
 
 | Pista | Escena | Estilo / ambiente | Fuente / licencia |
 | :--- | :--- | :--- | :--- |
-| AAA | Menú principal | AAA (p. ej. *chiptune* relajado) | AAA (propia / CC-BY...) |
-| BBB | Partida | BBB (p. ej. ritmo rápido, 140 BPM) | BBB |
-| CCC | Victoria / derrota | CCC | CCC |
+| Menú principal | Menú principal | Relajado | propia |
+| Partida | Partida | Ritmo rápido, unos 120 BMP | propia |
+| Victoria | Victoria / derrota | Alegre y dinámica | propia |
 
 ### 6.2. Efectos de sonido
 
 | Efecto | Momento en que se reproduce |
 | :--- | :--- |
 | Salto | Al pulsar la tecla de salto |
-| Golpe / impacto | AAA |
-| Recoger objeto | AAA |
+| Golpe / impacto | Cuando los jugadores chocan contra una pared |
+| Objetos | Cuando los alienes activan trampas  |
+| Objetos | Cuando los héroes están sobre las cintas mecánicas |
 | Botones de la interfaz | Al pasar el ratón y al hacer clic |
-| Cuenta atrás | AAA |
+| Cuenta atrás | En la preparación de la partida |
 
 ---
 
@@ -426,7 +427,7 @@ flowchart TD
 > *Rúbrica — Comunicación / Marketing.*
 
 - **Público y mensaje clave:** AAA AAA AAA.
-- **Canales:** redes sociales (AAA, BBB), itch.io, Newgrounds, Game Jolt...
+- **Canales:** redes sociales (Alien_Export), itch.io, Steam, Game Jolt...
 - **Calendario:** *teaser* en AAA, *devlog* semanal en AAA, lanzamiento en AAA.
 - **Material:** tráiler, capturas, GIF de jugabilidad, *press kit*.
 - **Eslogan:** «AAA AAA AAA».
