@@ -233,7 +233,7 @@ Sin embargo, el superhéroe se enfrenta a un problema imprevisto: la atmósfera 
 #### Superhéroe 3: Lady Void
 
 <img src="img/Diseño_ladyVoid.png" alt="Boceto de Lady Void" width="250">
-*Figura 6. Diseño Lady Void.*
+*Figura 7. Diseño Lady Void.*
 
 - **Edad / origen:** 24 años. Procedencia desconocida (encontrada en una anomalía cuántica en la estratosfera).
 - **Personalidad:** Elegante, sarcástica y sumamente calculadora. Es el miembro más serio y disciplinado del equipo, aunque tiene una debilidad por los trucos teatrales y la magia de escenario.
@@ -243,7 +243,7 @@ Sin embargo, el superhéroe se enfrenta a un problema imprevisto: la atmósfera 
 #### Raza Alienígena 1: Bubble Beast
 
 <img src="img/Diseño_bubbleBeast.png" alt="Boceto del personaje Bubble Beast" width="250">
-*Figura 7. Diseño Bubble Beast.*
+*Figura 8. Diseño Bubble Beast.*
 
 - **Origen:** Originario del planeta acuoso Gloop-9.
 - **Personalidad:** Extremadamente curioso, asustadizo y alegre. Se emociona con facilidad y tiende a dar pequeños saltos cuando ve algo llamativo.
@@ -253,7 +253,7 @@ Sin embargo, el superhéroe se enfrenta a un problema imprevisto: la atmósfera 
 #### Raza Alienígena 2: Ranma
 
 <img src="img/Diseño_ranma.png" alt="Boceto del personaje Ranma" width="250">
-*Figura 8. Diseño Ranma.*
+*Figura 9. Diseño Ranma.*
 
 - **Origen:** Procedentes del Imperio Croac-croac gobernado por Croaac-Bonaparte I .
 - **Personalidad:** Hiperactiva, competitiva y con una alarmante falta de sentido del peligro. Le encanta vacilar al rival.
@@ -263,7 +263,7 @@ Sin embargo, el superhéroe se enfrenta a un problema imprevisto: la atmósfera 
 #### Raza Alienígena 3: Caramoái
 
 <img src="img/Diseño_caramoái.png" alt="Boceto del personaje Caramoái" width="250">
-*Figura 9. Diseño Caramoái.*
+*Figura 10. Diseño Caramoái.*
 
 - **Edad / origen:** Originarios del planeta Pascua, en la Constelación de la Cantera.
 - **Personalidad:** Testarudo, gruñón y de pocas palabras, se enfadan muchísimo si alguien camina más rápido que él.
@@ -273,7 +273,7 @@ Sin embargo, el superhéroe se enfrenta a un problema imprevisto: la atmósfera 
 #### Director Innombrable (Personaje no jugable)
 
 <img src="img/Diseño_npc.png" alt="Boceto del Director Innombrable" width="250">
-*Figura 10. Diseño Innombrable.*
+*Figura 11. Diseño Innombrable.*
 
 - **Edad / origen:** Alrededor de 1001 años (aparenta mucho menos debido a sus células híbridas). Originario de la Tierra.
 - **Personalidad:** Pragmático, cínico y sumamente estresado. Carga con el peso del mundo sobre sus hombros, lo que le hace tomar decisiones frías y utilitarias, aunque en el fondo mantiene el corazón noble y protector que tenía en su juventud.
@@ -288,7 +288,7 @@ Sin embargo, el superhéroe se enfrenta a un problema imprevisto: la atmósfera 
 
 ![Logotipo del juego](img/Diseño_Logo.png)
 
-*Figura 11. Logotipo del juego. Concepto: Representa los dos bandos del juego con sus dos colores característicos, verde para los alienígenas y morado para los héroes.*
+*Figura 12. Logotipo del juego. Concepto: Representa los dos bandos del juego con sus dos colores característicos, verde para los alienígenas y morado para los héroes.*
 
 ### 5.2. Estilo visual
 
@@ -298,7 +298,7 @@ El juego utiliza un estilo cartoon 2D porque se desea resaltar la funcionalidad 
 
 ![Paleta de colores](img/Paleta.png)
 
-*Figura 12. Paleta de colores del juego.*
+*Figura 13. Paleta de colores del juego.*
 
 - **Fondo (`#33373F`):** color solido oscuro que hace resaltar a los personajes.
 - **Héroes (`#8A4ADF`) / Aleinígenas 2 (`#93D928`):** colores complementarios para distinguir fácilmente a cada jugador.
@@ -314,7 +314,7 @@ El juego utiliza un estilo cartoon 2D porque se desea resaltar la funcionalidad 
 
 ![Moodboard de inspiración](img/Moodboard_personajes.png)
 
-*Figura 13. Moodboard con las referencias visuales para los personajes.*
+*Figura 14. Moodboard con las referencias visuales para los personajes.*
 
 - Simpsom (serie): tomamos ideas de los alieneigenas [1].
 - Moái (referencia cultural): tomamos de referencia la expresión facial [2].
@@ -329,10 +329,10 @@ El juego utiliza un estilo cartoon 2D porque se desea resaltar la funcionalidad 
 Los bocetos de los personajes se encuentran en el apartado [4.2](#42-personajes) y los de las pantallas en el apartado [7.1](#71-pantallas).
 ![Boceto Diseño Héroes](img/Boceto_Héroes.png)
 
-*Figura 14. Boceto Diseño Héroes.*
+*Figura 15. Boceto Diseño Héroes.*
 ![Boceto Diseño Alienígenas](img/Boceto_Alienígenas.png)
 
-*Figura 15. Boceto Diseño Alienígenas.*
+*Figura 16. Boceto Diseño Alienígenas.*
 ---
 
 ## 6. Sonido
@@ -349,7 +349,7 @@ Los bocetos de los personajes se encuentran en el apartado [4.2](#42-personajes)
 
 | Efecto | Momento en que se reproduce |
 | :--- | :--- |
-| Salto | Al pulsar la tecla de salto |
+| Correr | Al pulsar la tecla de correr |
 | Golpe / impacto | Cuando los jugadores chocan contra una pared |
 | Objetos | Cuando los alienes activan trampas  |
 | Objetos | Cuando los héroes están sobre las cintas mecánicas |
@@ -366,16 +366,16 @@ Los bocetos de los personajes se encuentran en el apartado [4.2](#42-personajes)
 
 ![Boceto del menú principal](img/Boceto_MenuPrincipal.png)
 
-*Figura 16. Menú principal: Muestra el título y las opciones básicas*
+*Figura 17. Menú principal: Muestra el título y las opciones básicas*
 
 **Pantalla de juego (HUD)**
 
 ![Boceto de la pantalla de juego](img/Boceto_PantallaJuego_Heroes.png)
 
-*Figura 17. Pantalla de juego: se muestra el mapa y la estamina del personaje.*
+*Figura 18. Pantalla de juego: se muestra el mapa y la estamina del personaje.*
 ![Boceto de la pantalla de juego](img/Boceto_PantallaJuego_Aliens.png)
 
-*Figura 18. Pantalla de juego: se muestra el mapa y las vidas del jugador.*
+*Figura 19. Pantalla de juego: se muestra el mapa y las vidas del jugador.*
 
 **Ajustes y fin de partida**
 
@@ -384,7 +384,7 @@ Los bocetos de los personajes se encuentran en el apartado [4.2](#42-personajes)
   <img src="img/Boceto_FinPartida.png" alt="Boceto de fin de partida" width="45%">
 </p>
 
-*Figura 9. Pantalla de ajustes (izquierda) y fin de partida (derecha).*
+*Figura 20. Pantalla de ajustes (izquierda) y fin de partida (derecha).*
 
 ### 7.2. Diagrama de flujo
 
@@ -510,7 +510,7 @@ flowchart LR
 
 ![Interacción por cada 10.000 jugadores](img/Grafico_Interaccion.png)
 
-*Figura 19. Interacción por cada 10.000 jugadores. Tasas supuestas para juegos web casuales [1] [2] [3] [4] [5] [6].*
+*Figura 21. Interacción por cada 10.000 jugadores. Tasas supuestas para juegos web casuales [1] [2] [3] [4] [5] [6].*
 
 Al iniciar la estrategia de lanzamiento del juego, comenzaremos con **acciones gratuitas**. Las acciones gratuitas, como los anuncios y las invitaciones, llegan a un tercio o más de los jugadores, mientras que las compras se mantienen bajas, como cabe esperar en un free-to-play.
 
@@ -518,7 +518,7 @@ Al iniciar la estrategia de lanzamiento del juego, comenzaremos con **acciones g
 
 ![Visibilidad por cada 10.000 jugadores](img/Grafico_Visibilidad.png)
 
-*Figura 20. Visibilidad por cada 10.000 jugadores.*
+*Figura 22. Visibilidad por cada 10.000 jugadores.*
 
 ### 9.6. Fuentes
 
