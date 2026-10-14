@@ -16,8 +16,6 @@
 8. [Comunicación y marketing](#8-comunicación-y-marketing)
 9. [Referencias](#9-referencias)
 
-> **Nota para el alumnado:** este documento es una **plantilla de ejemplo**. Sustituid todos los textos `AAA`, `BBB`, `CCC`... y las imágenes de `img/` por vuestro contenido. Los bloques como este, que empiezan por *Rúbrica*, indican qué criterio de evaluación cubre cada apartado: **borradlos antes de entregar**. Límite orientativo: **3500 palabras**. Todo el documento debe estar en castellano (mezclar idiomas penaliza).
-
 ---
 
 ## 1. Introducción
@@ -424,13 +422,27 @@ flowchart TD
 
 ## 8. Comunicación y marketing
 
-> *Rúbrica — Comunicación / Marketing.*
+La estrategia de marketing digital para el proyecto Alien Expel, se centrará en las redes sociales de Instagram, X, BlueSky, TikTok y YouTube. El objetivo principal de esta campaña es otorgar visibilidad al videojuego y construir una comunidad sólida en torno a su propuesta narrativa y visual a lo largo de este cuatrimestre.
+Durante este periodo académico, se propone una planificación de contenido a subir en forma de piezas de contenido promocional adaptadas a cada plataforma. Estas combinarán material gráfico, vídeos de desarrollo (devlogs) y mensajes que reflejen la identidad e historia del juego. La estrategia estará orientada a generar interacción, alcance y un posicionamiento.
+Aunque los tiempos de ejecución están acotados a la duración del cuatrimestre, las acciones promocionales están enfocadas en demostrar todo el potencial de Alien Expel, sentando las bases para futuras campañas de difusión más amplias.
+Para acceder a todos los canales, avances y contenidos de Alien Expel de forma centralizada, se mantendrá habilitado el espacio en Linktree.
+Por el momento no se plantea el uso de kitstarters ni ningún modo de monetización porque el proyecto ha sido concevido inicialmente en el marco académico de la asignatura Juegos en Ren del grado de diseño y desarrollo de videojuegos.
 
-- **Público y mensaje clave:** AAA AAA AAA.
-- **Canales:** redes sociales (Alien_Export), itch.io, Steam, Game Jolt...
-- **Calendario:** *teaser* en AAA, *devlog* semanal en AAA, lanzamiento en AAA.
-- **Material:** tráiler, capturas, GIF de jugabilidad, *press kit*.
-- **Eslogan:** «AAA AAA AAA».
+- **Público y mensaje clave:** • ugadores casuales, grupos de amigos y familias que buscan diversión rápida, risas y mecánicas accesibles a través de videojuegos cooperativos o competitivos locales (party games). El mensaje clave se centrará en el caos divertido, la cooperación caótica (o los piques entre amigos) y el humor.
+- **Canales:** Instagram, X, BlueSky, TikTok y YouTube serán las redes que emplearemos. Por otro lado plantemaos las plataformas de Itch.io y Game Jolt como medios donde alojar al juego. Y todo quedará recogido en un perfil de linktree para facilitar su acceso.
+- **Contenido y calendario:**
+| Contenido | Redes Sociales | Fecha estimada |
+| :--- | :--- | :--- |
+| Teaser de un nuevo proyecto |	Instagram / X / BlueSky / YouTube / TikTok | Última semana de Octubre |
+| Presentación de los desarrolladores |	Instagram / X / BlueSky  | Primera semana de Noviembre |
+| Video promocinal en la calle en el que revelamos el nuevo proyecto: Alien Expel  |	Instagram / X / BlueSky / YouTube / TikTok | Segunda semana de Noviembre |
+| Vídeo explicación sobre el tipo de juego |	Instagram / X / BlueSky / YouTube / TikTok | Tercera semana de Noviembre |
+| Vídeo explicación sobre el tipo de juego |	Instagram / X / BlueSky / YouTube / TikTok | Tercera semana de Noviembre |
+| Revelación de los personajes principales |	Instagram / X / BlueSky | Cuarta semana de Noviembre |
+| Muestra de los diferentes niveles y modos |	Instagram / X / BlueSky | Primera semana de Diciembre |
+| Publicación del soundtrack del juego |	YouTube | Dias antes de la publicación del juego |
+| Tráiler oficial y Lanzamiento del juego |	Instagram / X / BlueSky / YouTube / TikTok | Dia de la publicación del juego |
+- **Eslogan provisional:** ¡Sálvese quien pueda! Convierte tu salón en el espacio exterior con la invasión alienígena más caótica y divertida para jugar en grupo.
 
 ---
 
