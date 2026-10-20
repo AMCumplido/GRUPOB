@@ -332,8 +332,8 @@ Los bocetos de los personajes se encuentran en el apartado [4.2](#42-personajes)
 *Figura 15. Boceto Diseño Héroes.*
 ![Boceto Diseño Alienígenas](img/Boceto_Alienígenas.png)
 
-*
 *Figura 16. Boceto Diseño Alienígenas.*
+
 ---
 
 ## 6. Sonido
