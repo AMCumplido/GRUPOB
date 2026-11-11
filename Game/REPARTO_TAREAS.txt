@@ -1,10 +1,85 @@
-Juegos en Red - Fase 1
-Grupo: B
-Juego: Alien Expel
-
-Integrantes:
-- Alejandro Miguel Cumplido Alastuey    - am.cumplidoa.2024@alumnos.urjc.es    - GitHub: AMCumplido
-- Álvaro Cardos Serrano    - a.cardoso.2024@alumnos.urjc.es    - GitHub: Roalvo15-YT
-- Estanislao de Kosko Castrillón Román   - ek.castrillon.2022@alumnos.urjc.es   - GitHub: Estcastri
-- Daniel Delgado Pérez - d.delagdo.2018@alumnos.urjc.es - GitHub: D-Denli
-Repositorio GitHub: https://github.com/AMCumplido/GRUPOB.git
+ID: [PROG-01] | Tipo: US
+Título: Implementación del Setup Base y Máquina de Estados de Escenas
+Descripción: Configurar la arquitectura limpia de Phaser 3 (Scene.js). Crear la estructura para transicionar de forma fluida: Boot -> Preloader -> MainMenu -> GameplayScene -> GameOverScene.
+Responsable: Estanis
+--------------------------------------------------------------------------------
+ID: [PROG-02] | Tipo: US
+Título: Control del Input (Teclado) y Física de Movimiento del Héroe
+Descripción: Mapear el Input de teclado para el Jugador 1. Implementar físicas Arcade (2D) para caminar (100% velocidad base) y la lógica del botón de carrera (200% velocidad) que activa el multiplicador de gasto de estamina.
+Responsable: Álvaro
+--------------------------------------------------------------------------------
+ID: [PROG-03] | Tipo: US
+Título: Control del Input (Teclado) y Física de Movimiento Alienígena
+Descripción: Mapear el Input de teclado en el mismo script para el Jugador 2. Configurar una velocidad lineal fija (120%) constante, sin sistema de estamina.
+Responsable: Álvaro
+--------------------------------------------------------------------------------
+ID: [ART-01] | Tipo: Task
+Título: Diseño y Exportación de Spritesheets de Personajes (Cenital 2D)
+Descripción: Dibujar y exportar las hojas de sprites con las animaciones básicas de caminar en 4 direcciones para un héroe y un alienígena.
+Responsable: Alejandro
+--------------------------------------------------------------------------------
+ID: [PROG-04] | Tipo: US
+Título: Sistema de Colisión Estricta y Trigger de Captura
+Descripción: Configurar un overlap o collider entre las bounding boxes del héroe y el alien.
+Responsable: Álvaro
+--------------------------------------------------------------------------------
+ID: [ART-02] | Tipo: Task
+Título: Creación de Tilemap y Tileset: Escenario 1
+Descripción: Diseñar en cuadrícula (ej. 32x32) los assets del mapa (sala de mandos, dormitorios, camas, etc.). Exportar el Tileset en PNG.
+Responsable: Alejandro
+--------------------------------------------------------------------------------
+ID: [DISE-01] | Tipo: Task
+Título: Montaje del Nivel y Capas de Colisión en Tiled
+Descripción: Importar el PNG del artista en Tiled (o software similar). Dibujar el mapa por capas (Suelo, Decoración) y crear la capa invisible de "Muros/Colisiones" generándolas como Static Bodies en Phaser. Cargar el archivo JSON del mapa generado en Tiled, se utiliza la función de Phaser map.createLayer() para pintar los muros. Después, se activa la propiedad de colisión en esa capa con map.setCollisionByProperty({ collides: true }). Finalmente, se inyecta la colisión física en el bucle del juego usando this.physics.add.collider(player, capaMuros), asegurando que tanto el superhéroe como el alienígena choquen de forma sólida contra las paredes.
+Responsable: Estanis
+--------------------------------------------------------------------------------
+ID: [PROG-05] | Tipo: US
+Título: Lógica de Bloqueo de Puertas y Fuerzas de Empuje (Vectores)
+Descripción: Programar los botones de cierre. Si el alien los activa, la puerta cambia su colisión a sólida por 15 segundos. Si pilla al héroe debajo, aplicar un vector de fuerza inverso (velocity.x/y negativa) para empujarlo hacia atrás.
+Responsable: Álvaro
+--------------------------------------------------------------------------------
+ID: [PROG-06] | Tipo: US
+Título: Mecánica de Teletransporte por Conductos de Ventilación
+Descripción: Crear triggers en las trampillas. Al pulsar el botón de interactuar, cambia las coordenadas (x, y) del alien al conducto de salida y activa un Clock/Timer de 5 segundos de cooldown donde nadie puede usarla.
+Responsable: Álvaro
+--------------------------------------------------------------------------------
+ID: [PROG-07] | Tipo: US
+Título: Modificadores de Fricción: Cintas Transportadoras e Impulsores
+Descripción: Implementa los Cuadros de Luz que activan las rampas de velocidad durante 10 segundos sin coste de estamina para el héroe. Y definir las áreas de la cinta; si un personaje entra, se suma/resta velocidad a su vector base.
+Responsable: Álvaro
+--------------------------------------------------------------------------------
+ID: [DISE-02] | Tipo: US
+Título: Lógica de Spawneo Dinámico y Captura de Recursos (Botes de Estamina)
+Descripción: Crear un script manager que use un Phaser.Time.TimerEvent cada 15 segundos. Elige coordenadas (x,y) aleatorias libres de colisión. Controla el límite de existencias en el mapa aplicando la fórmula del GDD: 4 - n.
+Responsable: Estanis
+--------------------------------------------------------------------------------
+ID: [DISE-03] | Tipo: US
+Título: Motor de Puntuación Asimétrica (Score Manager)
+Descripción: Programar las fórmulas matemáticas del GDD en funciones limpias. Calcular los puntos del héroe (Captura base + Bonus de tiempo restante) y los del alien (Supervivencia por tiempo + Sabotaje colectivo por recolectar botes).
+Responsable: Estanis
+--------------------------------------------------------------------------------
+ID: [ART-03] | Tipo: Task
+Título: UI Assets Design (Menus & HUD)
+Descripción: Diseñar la paleta gráfica cartoon de la interfaz. Entregar los botones del menú, el marco de la barra de estamina y los pop-ups finales.
+Responsable: Alejandro
+--------------------------------------------------------------------------------
+ID: [DISE-04] | Tipo: US
+Título: Implementación del HUD Dinámico en Gameplay
+Descripción: Dibujar elementos fijos en pantalla vinculados a variables del juego. Actualizar la barra de estamina del héroe escalando su propiedad width según el porcentaje de energía restante, y mostrar el cronómetro en reversa (3:00 a 0:00).
+Responsable: Estanis
+--------------------------------------------------------------------------------
+ID: [DISE-05] | Tipo: US
+Título: Desarrollo de Menús Interactivos y Flujo de UI
+Descripción: Programar la interactividad (setInteractive()) con eventos de ratón (pointerdown, pointerover) en la escena MainMenu: botones de Inicio, Créditos, Ajustes y Ayuda.
+Responsable: Estanis
+--------------------------------------------------------------------------------
+ID: [ART-04] | Tipo: Task
+Título: Efectos de Sonido (SFX) y BGM
+Descripción: Crear o buscar bajo licencia libre los efectos listados (pisadas rápidas, impactos contra muros, clicks de UI, alarmas) y la música.
+Responsable: Daniel
+--------------------------------------------------------------------------------
+ID: [DISE-06] | Tipo: Task
+Título: Integración del AudioManager y Feedback Audiovisual
+Descripción: Cargar los assets de audio en el Preloader. Vincular la reproducción de los sonidos a los eventos del código (ej. reproducir sfx_hit dentro de la función de colisión con muros programada por Prog 1 y Prog 2).
+Responsable: Daniel
+--------------------------------------------------------------------------------
