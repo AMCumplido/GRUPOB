@@ -33,7 +33,7 @@ export class LoadScene extends Phaser.Scene {
         this.load.on('progress', (valor) => {
             this.relleno.clear();
             this.relleno.fillStyle(0x76ff03, 1);
-            this.relleno.fillRect(x + 6, y + 6, (anchoBarra - 12) * valor, altoBarra - 12);
+            this.relleno.fillRect(x + 3, y + 3, (anchoBarra - 12) * valor, altoBarra - 12);
             this.textoCarga.setText(`CARGANDO... ${Math.round(valor * 100)}%`);
         });
 
