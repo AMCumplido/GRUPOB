@@ -19,23 +19,23 @@ export class GameScene extends Phaser.Scene {
         this.load.audio('hit', 'assets/audio/hit.mp3');
 
         // Background music
-        this.load.audio('music', 'assets/audio/music.mp3');
+        //this.load.audio('music', 'assets/audio/music.mp3');
     }
 
     create() { //Recomendable aquí lo maximo posible, pongo los origenes de los objetos del suelo.
         //setInmovable para que no se muevan rollo pared. Tmb en create poner los colliders
         // Looping background music
-        this.music = this.sound.add('music', { loop: true, volume: 0.3 });
-        this.music.play();
+        //this.music = this.sound.add('music', { loop: true, volume: 0.3 });
+        //this.music.play();
 
         // Pause/resume the music with the scene and stop it on exit
-        this.events.on('pause', () => this.music.pause());
-        this.events.on('resume', () => this.music.resume());
-        this.events.once('shutdown', () => {
-            this.events.off('pause');
-            this.events.off('resume');
-            this.music.destroy();
-        });
+        //this.events.on('pause', () => this.music.pause());
+        //this.events.on('resume', () => this.music.resume());
+        //this.events.once('shutdown', () => {
+        //    this.events.off('pause');
+        //    this.events.off('resume');
+        //    this.music.destroy();
+        //} );
 
         this.leftGoals = 0;
         this.rightGoals = 0;

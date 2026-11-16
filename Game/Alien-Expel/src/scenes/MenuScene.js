@@ -15,6 +15,7 @@ export class MenuScene extends Phaser.Scene {
         // Fondo centrado en el lienzo de 1920x1080
         const background = this.add.image(960, 540, 'background');
         background.setDisplaySize(1920, 1080);
+        background.setDepth(-1);
 
         // Logo guardado en una variable para poder escalarlo
         const logotype = this.add.image(960, 250, 'logotype');
