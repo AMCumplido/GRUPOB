@@ -1,0 +1,27 @@
+import Phaser from 'phaser';
+import { GameScene } from './scenes/GameScene.js';
+import { MenuScene } from './scenes/MenuScene.js';
+import { PauseScene } from './scenes/PauseScene.js';
+import { LoadScene } from './scenes/LoadScene.js';
+import { HelpScene } from './scenes/HelpScene.js';
+import { CreditScene } from './scenes/CreditScene.js';
+import {GameOverScene} from './scenes/GameOverScene.js';
+
+const config = {
+    type: Phaser.AUTO,      // WebGL if available; otherwise, Canvas
+    width: 1920,
+    height: 1080,
+    scale: {
+        mode: Phaser.Scale.FIT,             // Escala el juego para que quepa entero en la ventana
+        autoCenter: Phaser.Scale.CENTER_BOTH // Lo centra tanto en horizontal como en vertical
+    },
+    physics: {
+        default: 'arcade',
+        arcade: {
+            gravity: { y: 0 }
+        }
+    },
+    scene: [MenuScene, LoadScene, GameScene, HelpScene, CreditScene, PauseScene, GameOverScene]      // The first scene starts automatically
+};
+
+const game = new Phaser.Game(config);
