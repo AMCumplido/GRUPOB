@@ -32,6 +32,10 @@ export class MenuScene extends Phaser.Scene {
         this.crearBoton(960, 900, 'CREDITS', () => {
             console.log('CreditsScene');
         });
+
+        this.crearBotonCircular(1800, 950, 'HOW TO PLAY?', () => {
+            console.log('CreditsScene');
+        });
     }
 
     crearBoton(x, y, texto, accion) {
@@ -43,6 +47,34 @@ export class MenuScene extends Phaser.Scene {
         // Texto centrado encima del rectángulo
         const etiqueta = this.add.text(x, y, texto, {
             fontSize: '36px',
+            fontFamily: 'Arial',
+            fontStyle: 'bold',
+            color: '#ffffff'
+        }).setOrigin(0.5);
+
+        // Efectos al pasar el ratón por encima
+        fondo.on('pointerover', () => {
+            fondo.setFillStyle(0x76ff03, 1);
+            etiqueta.setColor('#111122');
+        });
+
+        fondo.on('pointerout', () => {
+            fondo.setFillStyle(0x111122, 0.85);
+            etiqueta.setColor('#ffffff');
+        });
+
+        // Acción al pulsar
+        fondo.on('pointerdown', accion);
+    }
+    crearBotonCircular(x, y, texto, accion) {
+        // Rectángulo de 420x100 px con fondo oscuro y borde verde neón
+        const fondo = this.add.circle(x, y, 100, 0x111122, 0.85)
+            .setStrokeStyle(4, 0x76ff03)
+            .setInteractive({ useHandCursor: true });
+
+        // Texto centrado encima del círculo
+        const etiqueta = this.add.text(x, y, texto, {
+            fontSize: '25px',
             fontFamily: 'Arial',
             fontStyle: 'bold',
             color: '#ffffff'
