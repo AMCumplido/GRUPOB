@@ -4,7 +4,7 @@ import { GameScene } from './scenes/GameScene.js';
 import { MenuScene } from './scenes/MenuScene.js';
 import { PauseScene } from './scenes/PauseScene.js';
 import { LoadScene } from './scenes/LoadScene.js';
-import { HelpScene } from './scenes/HelpScene.js';
+import { SetingsScene } from './scenes/SetingsScene.js';
 import { CreditScene } from './scenes/CreditScene.js';
 import {GameOverScene} from './scenes/GameOverScene.js';
 
@@ -22,7 +22,7 @@ const config = {
             gravity: { y: 0 }
         }
     },
-    scene: [MenuScene, Boot, LoadScene, GameScene, HelpScene, CreditScene, PauseScene, GameOverScene]      // The first scene starts automatically
+    scene: [Boot, MenuScene, LoadScene, GameScene, SetingsScene, CreditScene, PauseScene, GameOverScene]      // The first scene starts automatically
 };
 
 const game = new Phaser.Game(config);

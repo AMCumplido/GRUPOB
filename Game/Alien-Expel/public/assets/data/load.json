@@ -20,25 +20,25 @@
   {
     "imagenKey": "tip_alien1",
     "rutaImagen": "assets/images/tips/Diseño_bubbleBeast.png",
-    "titulo": "SABOTAJE ALIENÍGENA",
+    "titulo": "BOUBBLE BEAST",
     "texto": "Recoge los botes de estamina del mapa para dejar al héroe sin energía."
   },
   {
     "imagenKey": "tip_alien2",
     "rutaImagen": "assets/images/tips/Diseño_caramoái.png",
-    "titulo": "SABOTAJE ALIENÍGENA",
+    "titulo": "CARAMOAI",
     "texto": "Usa los conductos de ventilación para teletransportarte, cuidado porque no podrás usarlo tras unos instantes."
   },
   {
     "imagenKey": "tip_alien3",
     "rutaImagen": "assets/images/tips/Diseño_ranma.png",
-    "titulo": "SABOTAJE ALIENÍGENA",
+    "titulo": "RANMA",
     "texto": "Quizás no debí haber comprado los billetes para este viaje. Pero es que en el foro integalactico decian que los insectos terrestres tienen un delicioso sabor a... ¡“croac-barbacoa”!"
   },
   {
     "imagenKey": "tip_Inombrable",
     "rutaImagen": "assets/images/tips/Diseño_npc.png",
-    "titulo": "DIRECTOR INNOMBRABLE",
+    "titulo": "INNOMBRABLE",
     "texto": "Antiguo héroe Invencible, su nombre fue arruinado por un meme de internet. Ahora dirige la ARE en traje y corbata, luchando por salvar la Tierra sin pasarse del presupuesto."
   }
 ]
