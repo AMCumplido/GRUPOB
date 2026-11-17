@@ -6,11 +6,14 @@ export class SetingsScene extends Phaser.Scene {
         super('SetingsScene');
     }
 
+    init(data) {
+        this.escenaAnterior = (data && data.escenaAnterior) ? data.escenaAnterior : null;
+    }
     create() {
         const background = this.add.image(960, 540, 'background');
         background.setDisplaySize(1920, 1080);
 
-        this.add.text(960, 50, 'OPTIONS', {
+        this.add.text(960, 50, 'OPCIONES', {
             fontSize: '120px',
             fontFamily: 'Arial',
             fontStyle: 'bold',
@@ -18,7 +21,7 @@ export class SetingsScene extends Phaser.Scene {
             align: 'center',
         }).setOrigin(0.5, 0);
 
-        this.add.text(960, 250, 'SOUND', {
+        this.add.text(960, 250, 'SONIDO', {
             fontSize: '40px',
             fontFamily: 'Arial',
             fontStyle: 'bold',
@@ -28,7 +31,15 @@ export class SetingsScene extends Phaser.Scene {
         this.crearSliderSonido(960, 360, 500);
 
         BotonesUI.crearBotonRectangular(this, 960, 950, 'VOLVER', () => {
-            this.scene.start('MenuScene');
+            if (this.escenaAnterior === 'PauseScene') {
+                this.escenaAnterior = null;
+                this.scene.setVisible(true, 'GameScene');
+                this.scene.setVisible(true, 'HUDScene');
+                this.scene.start('PauseScene', { saltarAnimacion: true });
+            } else {
+                this.escenaAnterior = null;
+                this.scene.start('MenuScene');
+            }
         }, { colorBorde: 0x884adf });
     }
 

@@ -7,11 +7,11 @@ export class LoadScene extends Phaser.Scene {
 
     init(data) {
         this.siguienteEscena = data.siguienteEscena || 'MenuScene';
-        // 1. Limpiamos el consejo anterior cada vez que arranca la escena
         this.tipSeleccionado = null;
     }
 
     preload() {
+        // Para esta escena:
         this.anchoBarra = 600;
         this.altoBarra = 40;
         const margen = 60;
@@ -38,7 +38,6 @@ export class LoadScene extends Phaser.Scene {
             this.textoCarga.setText(`CARGANDO... ${Math.round(valor * 100)}%`);
         });
 
-        // 2. Cargamos el JSON y ponemos en cola TODAS las imágenes de los consejos
         if (!this.cache.json.exists('tipsCarga')) {
             this.load.json('tipsCarga', 'assets/data/load.json');
             this.load.once('filecomplete-json-tipsCarga', () => {
@@ -52,6 +51,11 @@ export class LoadScene extends Phaser.Scene {
         this.load.image('deco1', 'assets/images/tips/Decorado1.png');
         this.load.image('deco2', 'assets/images/tips/Decorado2.png');
         this.load.image('deco3', 'assets/images/tips/Pensamiento.png');
+
+        //Para el juego:
+        this.load.tilemapTiledJSON('mapa1', 'assets/maps/mapa_escenario1.json');
+        this.load.image('tiles_escenario1', 'assets/maps/tileset_escenario1.png');
+        // METER AKI COSAS!!!!
     }
 
     mostrarTipEnPantalla() {

@@ -1,6 +1,5 @@
 export class BotonesUI {
     static crearBotonRectangular(scene, x, y, texto, accion, opciones = {}) {
-        // Extraemos cada color con un valor por defecto por si no se especifica al llamarlo
         const {
             colorBorde = 0x8fcf35,
             colorFondo = 0x111122,
@@ -36,7 +35,7 @@ export class BotonesUI {
         return {fondo, etiqueta};
     }
 
-    static crearBotonCircular(scene, x, y, texto, accion, colorBorde = 0x8fcf35, radio = 100) {
+    static crearBotonCircular(scene, x, y, texto, accion, radio = 100,colorBorde = 0x8fcf35) {
         const fondo = scene.add.circle(x, y, radio, 0x111122, 0.85)
             .setStrokeStyle(4, colorBorde)
             .setInteractive({ useHandCursor: true });

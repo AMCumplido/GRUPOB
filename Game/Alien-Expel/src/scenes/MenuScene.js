@@ -19,21 +19,21 @@ export class MenuScene extends Phaser.Scene {
         const logotype = this.add.image(960, 250, 'logotype');
         logotype.setScale(0.4);
 
-        BotonesUI.crearBotonRectangular(this,960, 620, 'LOCAL PLAY', () => {
+        BotonesUI.crearBotonRectangular(this,960, 620, 'JUEGO LOCAL', () => {
             this.scene.start('LoadScene', { siguienteEscena: 'GameScene' });
         });
 
-        BotonesUI.crearBotonRectangular(this,960, 760, 'OPTIONS', () => {
-            this.scene.start('SetingsScene');
+        BotonesUI.crearBotonRectangular(this, 960, 760, 'OPCIONES', () => {
+            this.scene.start('SetingsScene', { escenaAnterior: null });
         });
 
-        BotonesUI.crearBotonRectangular(this,960, 900, 'CREDITS', () => {
+        BotonesUI.crearBotonRectangular(this,960, 900, 'CRÉDITOS', () => {
             this.scene.start('CreditScene');
         });
 
-        BotonesUI.crearBotonCircular(this,1800, 950, 'HOW TO PLAY?', () => {
+        BotonesUI.crearBotonCircular(this,1800, 950, '¿CÓMO JUGAR?', () => {
             this.scene.pause();
             this.scene.launch('HelpScene');
-        });
+        },110);
     }
 }

@@ -10,7 +10,7 @@ export class CreditScene extends Phaser.Scene {
         const background = this.add.image(960, 540, 'background');
         background.setDisplaySize(1920, 1080);
 
-        this.add.text(960, 50, 'CREDITS', {
+        this.add.text(960, 50, 'CRÉDITOS', {
             fontSize: '120px',
             fontFamily: 'Arial',
             fontStyle: 'bold',
@@ -19,10 +19,10 @@ export class CreditScene extends Phaser.Scene {
         }).setOrigin(0.5, 0);
 
         const creditos = [
-            { rol: 'PROGRAMMER', nombres: 'Álvaro Cardos Serrano\nAlejandro Miguel Cumplido Alastuey\nDaniel Delgado Pérez\nEstanislao de Koska Castrillón Román'},
-            { rol: 'ART', nombres: 'Alejandro Miguel Cumplido Alastuey' },
-            { rol: 'DESIGN', nombres: 'Estanislao de Koska Castrillón Román' },
-            { rol: 'MUSIC', nombres: 'Daniel Delgado Pérez' }
+            { rol: 'PROGRAMADORES', nombres: 'Álvaro Cardos Serrano\nAlejandro Miguel Cumplido Alastuey\nDaniel Delgado Pérez\nEstanislao de Koska Castrillón Román'},
+            { rol: 'ARTE', nombres: 'Alejandro Miguel Cumplido Alastuey' },
+            { rol: 'DISEÑO', nombres: 'Estanislao de Koska Castrillón Román' },
+            { rol: 'MÚSICA', nombres: 'Daniel Delgado Pérez' }
         ];
 
         let posY = 250;
