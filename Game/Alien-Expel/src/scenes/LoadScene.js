@@ -1,4 +1,5 @@
 import Phaser from 'phaser';
+
 export class LoadScene extends Phaser.Scene {
     constructor() {
         super('LoadScene');
@@ -6,6 +7,8 @@ export class LoadScene extends Phaser.Scene {
 
     init(data) {
         this.siguienteEscena = data.siguienteEscena || 'MenuScene';
+        // 1. Limpiamos el consejo anterior cada vez que arranca la escena
+        this.tipSeleccionado = null;
     }
 
     preload() {
@@ -35,23 +38,20 @@ export class LoadScene extends Phaser.Scene {
             this.textoCarga.setText(`CARGANDO... ${Math.round(valor * 100)}%`);
         });
 
-        this.load.json('tipsCarga', 'assets/data/load.json');
-
-        this.load.once('filecomplete-json-tipsCarga', () => {
-            const listaTips = this.cache.json.get('tipsCarga');
-
-            this.tipSeleccionado = Phaser.Utils.Array.GetRandom(listaTips);
-
-            this.load.image(this.tipSeleccionado.imagenKey, this.tipSeleccionado.rutaImagen);
-
-            this.load.once(`filecomplete-image-${this.tipSeleccionado.imagenKey}`, () => {
-                this.mostrarTipEnPantalla();
+        // 2. Cargamos el JSON y ponemos en cola TODAS las imágenes de los consejos
+        if (!this.cache.json.exists('tipsCarga')) {
+            this.load.json('tipsCarga', 'assets/data/load.json');
+            this.load.once('filecomplete-json-tipsCarga', () => {
+                const listaTips = this.cache.json.get('tipsCarga');
+                listaTips.forEach((tip) => {
+                    this.load.image(tip.imagenKey, tip.rutaImagen);
+                });
             });
-        });
+        }
 
-        this.load.image('deco1', 'assets/images/tips/Decorado1.png')
-        this.load.image('deco2', 'assets/images/tips/Decorado2.png')
-        this.load.image('deco3', 'assets/images/tips/Pensamiento.png')
+        this.load.image('deco1', 'assets/images/tips/Decorado1.png');
+        this.load.image('deco2', 'assets/images/tips/Decorado2.png');
+        this.load.image('deco3', 'assets/images/tips/Pensamiento.png');
     }
 
     mostrarTipEnPantalla() {
@@ -60,7 +60,6 @@ export class LoadScene extends Phaser.Scene {
         const imgTip = this.add.image(1360, 400, this.tipSeleccionado.imagenKey).setOrigin(0, 0);
         imgTip.setScale(0.8);
 
-        // Título del consejo en la parte superior central/derecha
         this.add.text(650, 425, this.tipSeleccionado.titulo, {
             fontSize: '42px',
             fontFamily: 'Arial',
@@ -69,7 +68,6 @@ export class LoadScene extends Phaser.Scene {
             align: 'left',
         }).setOrigin(0.5, 0);
 
-        // Texto descriptivo justo debajo del título con salto de línea automático (wordWrap)
         this.add.text(900, 490, this.tipSeleccionado.texto, {
             fontSize: '30px',
             fontFamily: 'Arial',
@@ -92,15 +90,12 @@ export class LoadScene extends Phaser.Scene {
         const deco3 = this.add.image(960, 540, 'deco3');
         deco3.setDepth(-1);
 
-        // Si los archivos ya estaban en caché (segunda vez que entras a LoadScene),
-        // nos aseguramos de elegir y mostrar un consejo nuevo igualmente
-        if (!this.tipSeleccionado && this.cache.json.exists('tipsCarga')) {
+        if (this.cache.json.exists('tipsCarga')) {
             const listaTips = this.cache.json.get('tipsCarga');
             this.tipSeleccionado = Phaser.Utils.Array.GetRandom(listaTips);
             this.mostrarTipEnPantalla();
         }
 
-        // Animación de transición de 1 segundo
         const progreso = { valor: 0 };
 
         this.tweens.add({
