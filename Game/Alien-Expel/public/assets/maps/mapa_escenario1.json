@@ -169,13 +169,13 @@
                 {
                  "height":64,
                  "id":17,
-                 "name":"boton_cinta_1",
+                 "name":"boton_cinta_2",
                  "opacity":1,
                  "properties":[
                         {
                          "name":"objetivo",
                          "type":"string",
-                         "value":"cinta_1"
+                         "value":"cinta_2"
                         }, 
                         {
                          "name":"tipo",
@@ -244,7 +244,7 @@
                         {
                          "name":"objetivo",
                          "type":"string",
-                         "value":"puerta_1"
+                         "value":"puerta_3"
                         }, 
                         {
                          "name":"tipo",

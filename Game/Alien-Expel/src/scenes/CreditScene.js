@@ -19,7 +19,7 @@ export class CreditScene extends Phaser.Scene {
         }).setOrigin(0.5, 0);
 
         const creditos = [
-            { rol: 'PROGRAMADORES', nombres: 'Álvaro Cardos Serrano\nAlejandro Miguel Cumplido Alastuey\nDaniel Delgado Pérez\nEstanislao de Koska Castrillón Román'},
+            { rol: 'PROGRAMADORES', nombres: 'Álvaro Cardos Serrano (principal)\nAlejandro Miguel Cumplido Alastuey\nDaniel Delgado Pérez\nEstanislao de Koska Castrillón Román'},
             { rol: 'ARTE', nombres: 'Alejandro Miguel Cumplido Alastuey' },
             { rol: 'DISEÑO', nombres: 'Estanislao de Koska Castrillón Román' },
             { rol: 'MÚSICA', nombres: 'Daniel Delgado Pérez' }
