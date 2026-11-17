@@ -30,7 +30,7 @@ export class HUDScene extends Phaser.Scene {
             this.barraStamina.width = (this.anchoStamina - 4) * Phaser.Math.Clamp(porcentaje, 0, 1);
         });
 
-        this.tiempoRestante = 10;
+        this.tiempoRestante = 180;
 
         this.textoTiempo = this.add.text(960, 55, '03:00', {
             fontSize: '52px',
