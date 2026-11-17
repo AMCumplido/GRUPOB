@@ -10,7 +10,7 @@ export class HUDScene extends Phaser.Scene {
         this.add.rectangle(960, 55, 1920, 110, 0x111122, 0.95)
             .setStrokeStyle(3, 0x884adf);
 
-        this.add.text(60, 22, 'STAMINA HERO', {
+        this.add.text(60, 22, 'VITALIDAD HÉROE', {
             fontSize: '20px',
             fontFamily: 'Arial',
             fontStyle: 'bold',
