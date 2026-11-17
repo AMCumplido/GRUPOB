@@ -12,6 +12,9 @@ export class GameScene extends Phaser.Scene {
         this.vents = new Map();
         this.conveyors = new Map();
         this.interactionButtons = [];
+        this.staminaCubes = null;
+        this.activeStaminaPositions = new Set();
+        this.staminaSpawnPositions = [];
         this.offsetY = 110;
     }
 
@@ -56,6 +59,7 @@ export class GameScene extends Phaser.Scene {
         );
 
         this.createInteractiveObjects(objects);
+        this.createStaminaCubes();
         this.createInteractionOverlay();
 
         this.scene.launch('HUDScene');
@@ -116,6 +120,15 @@ export class GameScene extends Phaser.Scene {
             objectGraphics.fillRect(0, 0, 64, 64);
             objectGraphics.generateTexture('interactive-object', 64, 64);
             objectGraphics.destroy();
+        }
+        if (!this.textures.exists('stamina-cube')) {
+            const cubeGraphics = this.make.graphics({ add: false });
+            cubeGraphics.fillStyle(0x35d07f);
+            cubeGraphics.fillRect(2, 2, 28, 28);
+            cubeGraphics.lineStyle(3, 0xd8ffe5);
+            cubeGraphics.strokeRect(2, 2, 28, 28);
+            cubeGraphics.generateTexture('stamina-cube', 32, 32);
+            cubeGraphics.destroy();
         }
     }
 
@@ -203,6 +216,87 @@ export class GameScene extends Phaser.Scene {
                 });
             }
         }
+    }
+
+    createStaminaCubes() {
+        this.staminaCubes = this.physics.add.group();
+        this.staminaSpawnPositions = [
+            { x: 160, y: 160 },
+            { x: 800, y: 224 },
+            { x: 1440, y: 160 },
+            { x: 160, y: 480 },
+            { x: 672, y: 480 },
+            { x: 1120, y: 480 },
+            { x: 1600, y: 480 },
+            { x: 160, y: 864 },
+            { x: 800, y: 864 },
+            { x: 1440, y: 864 }
+        ];
+
+        for (let index = 0; index < 4; index += 1) {
+            this.spawnStaminaCube();
+        }
+
+        const hero = this.players.get('hero').sprite;
+        const alien = this.players.get('alien').sprite;
+        this.physics.add.overlap(hero, this.staminaCubes, this.collectStaminaCube, null, this);
+        this.physics.add.overlap(alien, this.staminaCubes, this.collectStaminaCube, null, this);
+        this.time.addEvent({
+            delay: 15000,
+            callback: this.replenishStaminaCubes,
+            callbackScope: this,
+            loop: true
+        });
+    }
+
+    spawnStaminaCube() {
+        const availablePositions = this.staminaSpawnPositions.filter(({ x, y }) => {
+            return !this.activeStaminaPositions.has(`${x},${y}`);
+        });
+        if (availablePositions.length === 0) {
+            return;
+        }
+
+        const position = Phaser.Utils.Array.GetRandom(availablePositions);
+        const positionKey = `${position.x},${position.y}`;
+        const cube = this.staminaCubes.create(
+            position.x,
+            position.y + this.offsetY,
+            'stamina-cube'
+        );
+        cube.setImmovable(true);
+        cube.body.allowGravity = false;
+        cube.setSize(28, 28);
+        cube.setData('amount', 50);
+        cube.setData('positionKey', positionKey);
+        this.activeStaminaPositions.add(positionKey);
+    }
+
+    replenishStaminaCubes() {
+        this.ensureMinimumStaminaCubes();
+        if (this.activeStaminaPositions.size < 4) {
+            this.spawnStaminaCube();
+        }
+    }
+
+    ensureMinimumStaminaCubes() {
+        while (this.activeStaminaPositions.size < 2) {
+            this.spawnStaminaCube();
+        }
+    }
+
+    collectStaminaCube(playerSprite, cube) {
+        if (!cube.active) {
+            return;
+        }
+
+        const player = playerSprite.getData('player');
+        if (player?.isHero) {
+            player.restoreStamina(cube.getData('amount'));
+        }
+        this.activeStaminaPositions.delete(cube.getData('positionKey'));
+        cube.disableBody(true, true);
+        this.ensureMinimumStaminaCubes();
     }
 
     readProperties(properties = []) {

@@ -44,10 +44,9 @@ export class Player {
                 speed *= 2;
             }
 
-            const staminaDrain = direction.lengthSq() > 0 ? (running ? 30 : 10) : 0;
-            const staminaRecovery = direction.lengthSq() === 0 ? 20 : 0;
+            const staminaDrain = direction.lengthSq() > 0 ? (running ? 30 : 2) : 0;
             this.stamina = Phaser.Math.Clamp(
-                this.stamina + (staminaRecovery - staminaDrain) * (delta / 1000),
+                this.stamina - staminaDrain * (delta / 1000),
                 0,
                 this.maxStamina
             );
@@ -58,5 +57,14 @@ export class Player {
             direction.x * speed + conveyorVelocity.x,
             direction.y * speed + conveyorVelocity.y
         );
+    }
+
+    restoreStamina(amount) {
+        if (!this.isHero) {
+            return;
+        }
+
+        this.stamina = Phaser.Math.Clamp(this.stamina + amount, 0, this.maxStamina);
+        this.scene.events.emit('actualizarStamina', this.stamina / this.maxStamina);
     }
 }
