@@ -7,7 +7,7 @@ export class Player {
         this.isHero = role === 'hero';
         this.maxStamina = 100;
         this.stamina = this.maxStamina;
-        this.baseSpeed = this.isHero ? 160 : 192;
+        this.baseSpeed = this.isHero ? 190 : 185;
         this.exhaustedSpeed = 80;
 
         this.sprite = scene.physics.add.sprite(x, y, this.isHero ? 'player-hero' : 'player-alien');
@@ -44,7 +44,7 @@ export class Player {
                 speed *= 2;
             }
 
-            const staminaDrain = direction.lengthSq() > 0 ? (running ? 30 : 2) : 0;
+            const staminaDrain = direction.lengthSq() > 0 ? (running ? 50 : 8) : 0;
             this.stamina = Phaser.Math.Clamp(
                 this.stamina - staminaDrain * (delta / 1000),
                 0,

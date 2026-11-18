@@ -351,7 +351,7 @@
                         {
                          "name":"cooldown",
                          "type":"int",
-                         "value":5000
+                         "value":10000
                         }, 
                         {
                          "name":"destino",
@@ -374,12 +374,12 @@
                         {
                          "name":"cooldown",
                          "type":"int",
-                         "value":5000
+                         "value":10000
                         }, 
                         {
                          "name":"destino",
                          "type":"string",
-                         "value":"alcantarilla_2"
+                         "value":"alcantarilla_1"
                         }],
                  "rotation":0,
                  "type":"Alcantarilla",
@@ -397,7 +397,7 @@
                         {
                          "name":"cooldown",
                          "type":"int",
-                         "value":5000
+                         "value":10000
                         }, 
                         {
                          "name":"destino",
@@ -420,7 +420,7 @@
                         {
                          "name":"cooldown",
                          "type":"int",
-                         "value":5000
+                         "value":10000
                         }, 
                         {
                          "name":"destino",

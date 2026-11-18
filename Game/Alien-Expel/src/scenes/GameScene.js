@@ -180,7 +180,7 @@ export class GameScene extends Phaser.Scene {
                 this.vents.set(object.name, {
                     x, y, width: object.width, height: object.height,
                     destination: properties.destino, cooldown: false,
-                    cooldownDuration: properties.cooldown || 5000
+                    cooldownDuration: properties.cooldown || 10000
                 });
                 continue;
             }
