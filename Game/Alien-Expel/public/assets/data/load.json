@@ -1,0 +1,44 @@
+[
+  {
+    "imagenKey": "tip_heroe1",
+    "rutaImagen": "assets/images/tips/Diseño_capitanOrbita.png",
+    "titulo": "CAPITÁN ÓRBITA",
+    "texto": "Correr consume el triple de estamina. ¡Administra tu energía!"
+  },
+  {
+    "imagenKey": "tip_heroe2",
+    "rutaImagen": "assets/images/tips/Diseño_ladyVoid.png",
+    "titulo": "LADY VOID",
+    "texto": "Cuidado con los interruptores de los alienígenas: pueden cerrarte la puerta en la cara."
+  },
+  {
+    "imagenKey": "tip_heroe3",
+    "rutaImagen": "assets/images/tips/Diseño_robo-funk.png",
+    "titulo": "ROBO FUNK",
+    "texto": "Activa los cuadros de luz para ganar un impulso de velocidad gratuito sin gastar estamina."
+  },
+  {
+    "imagenKey": "tip_alien1",
+    "rutaImagen": "assets/images/tips/Diseño_bubbleBeast.png",
+    "titulo": "BOUBBLE BEAST",
+    "texto": "Recoge los botes de estamina del mapa para dejar al héroe sin energía."
+  },
+  {
+    "imagenKey": "tip_alien2",
+    "rutaImagen": "assets/images/tips/Diseño_caramoái.png",
+    "titulo": "CARAMOAI",
+    "texto": "Usa los conductos de ventilación para teletransportarte, cuidado porque no podrás usarlo tras unos instantes."
+  },
+  {
+    "imagenKey": "tip_alien3",
+    "rutaImagen": "assets/images/tips/Diseño_ranma.png",
+    "titulo": "RANMA",
+    "texto": "Quizás no debí haber comprado los billetes para este viaje. Pero es que en el foro integalactico decian que los insectos terrestres tienen un delicioso sabor a... ¡“croac-barbacoa”!"
+  },
+  {
+    "imagenKey": "tip_Inombrable",
+    "rutaImagen": "assets/images/tips/Diseño_npc.png",
+    "titulo": "INNOMBRABLE",
+    "texto": "Antiguo héroe Invencible, su nombre fue arruinado por un meme de internet. Ahora dirige la ARE en traje y corbata, luchando por salvar la Tierra sin pasarse del presupuesto."
+  }
+]
