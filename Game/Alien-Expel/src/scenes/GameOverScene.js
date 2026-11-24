@@ -19,7 +19,24 @@ export class GameOverScene extends Phaser.Scene {
         // victoria = alien atrapado, fin-partida = se acaba el tiempo
         // Cambia duracion (ms) si queréis cortarlo; null = archivo entero
         const sonidoFinal = this.motivo === 'captura' ? 'victoria' : 'fin-partida';
-        Sonidos.reproducir(this, sonidoFinal, { duracion: null });
+
+        // Música: se corta la de la partida; cuando acaba el jingle empieza la del menú
+        Sonidos.pararMusica('musica-juego');
+        Sonidos.pararMusica('musica-timeout');
+        const empezarMusicaMenu = () => {
+            // Solo si seguimos en esta pantalla (no si ya se pulsó VOLVER A JUGAR)
+            if (this.sys.isActive()) {
+                Sonidos.reproducirMusica(this, 'musica-menu');
+            }
+        };
+
+        const jingle = Sonidos.reproducir(this, sonidoFinal, {
+            duracion: null,
+            alTerminar: empezarMusicaMenu
+        });
+        if (!jingle) {
+            empezarMusicaMenu();
+        }
 
         const gameScene = this.scene.get('GameScene');
         const hudScene = this.scene.get('HUDScene');

@@ -1,5 +1,6 @@
 import Phaser from 'phaser';
 import { BotonesUI } from '../utils/BotonesUI.js';
+import { Sonidos } from '../utils/Sonidos.js';
 
 export class PauseScene extends Phaser.Scene {
     constructor() {
@@ -12,6 +13,19 @@ export class PauseScene extends Phaser.Scene {
 
     create() {
         this.scene.bringToTop();
+
+        // Música: se pausa la de la partida y suena la del menú
+        Sonidos.pausarMusica('musica-juego');
+        Sonidos.pausarMusica('musica-timeout');
+        Sonidos.reproducirMusica(this, 'musica-menu');
+
+        // Al continuar: fuera la del menú y la de la partida sigue donde se quedó
+        const volverAMusicaDeJuego = () => {
+            Sonidos.pararMusica('musica-menu');
+            Sonidos.reanudarMusica('musica-juego');
+            Sonidos.reanudarMusica('musica-timeout');
+        };
+
         const gameScene = this.scene.get('GameScene');
         let efectoBlur = null;
         if (gameScene?.cameras?.main?.postFX) {
@@ -58,6 +72,7 @@ export class PauseScene extends Phaser.Scene {
 
         const btnResume = BotonesUI.crearBotonRectangular(this, 960, 780, 'CONTINUAR', () => {
             limpiarBlur();
+            volverAMusicaDeJuego();
             this.scene.resume('GameScene');
             this.scene.resume('HUDScene');
             this.scene.stop();
@@ -86,6 +101,7 @@ export class PauseScene extends Phaser.Scene {
         this.time.delayedCall(150, () => {
             this.input.keyboard.once('keydown-ESC', () => {
                 limpiarBlur();
+                volverAMusicaDeJuego();
                 this.scene.resume('GameScene');
                 this.scene.resume('HUDScene');
                 this.scene.stop();

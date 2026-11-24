@@ -29,6 +29,15 @@ export class GameScene extends Phaser.Scene {
         // Los sonidos "vinculados" se pausan con la pausa y se paran al salir de la partida
         Sonidos.vincularEscena(this);
 
+        // Música: fuera la del menú, empieza la de la partida desde el principio
+        Sonidos.pararMusica('musica-menu');
+        Sonidos.reproducirMusica(this, 'musica-juego', { desdeInicio: true });
+        // Al salir de la partida (VOLVER INICIO / VOLVER A JUGAR) se para la música de juego
+        this.events.once('shutdown', () => {
+            Sonidos.pararMusica('musica-juego');
+            Sonidos.pararMusica('musica-timeout');
+        });
+
         const map = this.make.tilemap({ key: 'mapa1' });
         const tileset = map.addTilesetImage('tileset_escenario1', 'tiles_escenario1');
 

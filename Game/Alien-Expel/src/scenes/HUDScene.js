@@ -1,5 +1,6 @@
 import Phaser from 'phaser';
 import { BotonesUI } from '../utils/BotonesUI.js';
+import { Sonidos } from '../utils/Sonidos.js';
 
 export class HUDScene extends Phaser.Scene {
     constructor() {
@@ -67,6 +68,15 @@ export class HUDScene extends Phaser.Scene {
             this.scene.launch('GameOverScene', { ganador: 'JUGADOR 2', motivo: 'tiempo' });
             this.scene.bringToTop('GameOverScene');
             return;
+        }
+
+        // Últimos 15 s: musica-juego baja al 30% en 5 s y musica-timeout sube de 0 al 100% en 5 s
+        if (this.tiempoRestante === 15) {
+            Sonidos.fundirMusica(this, 'musica-juego', 0.3, 5000);
+        }
+        // A falta de 11 s: entra musica-timeout subiendo de 0 al 100% en 5 s
+        if (this.tiempoRestante === 11) {
+            Sonidos.reproducirMusica(this, 'musica-timeout', { volumen: 1, fadeIn: 5000, desdeInicio: true });
         }
 
         const minutos = Math.floor(this.tiempoRestante / 60);

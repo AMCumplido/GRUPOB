@@ -1,5 +1,6 @@
 import Phaser from 'phaser';
 import { BotonesUI } from '../utils/BotonesUI.js'
+import { Sonidos } from '../utils/Sonidos.js';
 
 export class MenuScene extends Phaser.Scene {
     constructor() {
@@ -12,6 +13,9 @@ export class MenuScene extends Phaser.Scene {
     }
 
     create() {
+        // Si ya estaba sonando (p. ej. volviendo de CRÉDITOS u OPCIONES) sigue sin cortarse
+        Sonidos.reproducirMusica(this, 'musica-menu');
+
         const background = this.add.image(960, 540, 'background');
         background.setDisplaySize(1920, 1080);
         background.setDepth(-1);
