@@ -51,7 +51,7 @@ export class HUDScene extends Phaser.Scene {
             this.scene.pause();
             this.scene.launch('PauseScene');
             this.scene.bringToTop('PauseScene');
-        }, 100 , 0x8fcf35);
+        }, 100 , 0x8fcf35, 'button');
     }
 
     actualizarReloj() {
@@ -64,7 +64,7 @@ export class HUDScene extends Phaser.Scene {
             // Congelamos la partida y el HUD detrás, y superponemos GameOverScene
             this.scene.pause('GameScene');
             this.scene.pause('HUDScene');
-            this.scene.launch('GameOverScene', { ganador: 'JUGADOR 2' });
+            this.scene.launch('GameOverScene', { ganador: 'JUGADOR 2', motivo: 'tiempo' });
             this.scene.bringToTop('GameOverScene');
             return;
         }

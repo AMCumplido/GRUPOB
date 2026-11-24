@@ -7,6 +7,8 @@ export class LoadScene extends Phaser.Scene {
 
     init(data) {
         this.siguienteEscena = data.siguienteEscena || 'MenuScene';
+        // Datos que se pasan a la siguiente escena (p. ej. { desdeMenu: true } para GameScene)
+        this.datosSiguiente = data.datosSiguiente || {};
         this.tipSeleccionado = null;
     }
 
@@ -55,6 +57,15 @@ export class LoadScene extends Phaser.Scene {
         //Para el juego:
         this.load.tilemapTiledJSON('mapa1', 'assets/maps/mapa_escenario1.json');
         this.load.image('tiles_escenario1', 'assets/maps/tileset_escenario1.png');
+        // Sonidos de la partida
+        this.load.audio('iniciar-partida', 'assets/audio/iniciar-partida.mp3');
+        this.load.audio('activar-rampa', 'assets/audio/activar-rampa.mp3');
+        this.load.audio('rampa', 'assets/audio/rampa.mp3');
+        this.load.audio('puerta', 'assets/audio/puerta.mp3');
+        this.load.audio('ventilacion', 'assets/audio/ventilacion.mp3');
+        this.load.audio('recoger-item', 'assets/audio/recoger-item.mp3');
+        this.load.audio('victoria', 'assets/audio/victoria.mp3');
+        this.load.audio('fin-partida', 'assets/audio/fin-partida.mp3');
         // METER AKI COSAS!!!!
     }
 
@@ -114,7 +125,7 @@ export class LoadScene extends Phaser.Scene {
                 this.textoCarga.setText(`CARGANDO... ${Math.round(progreso.valor * 100)}%`);
             },
             onComplete: () => {
-                this.scene.start(this.siguienteEscena);
+                this.scene.start(this.siguienteEscena, this.datosSiguiente);
             }
         });
     }

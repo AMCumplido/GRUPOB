@@ -1,12 +1,15 @@
 import Phaser from 'phaser';
 import { Player } from '../entities/Player.js';
+import { Sonidos } from '../utils/Sonidos.js';
 
 export class GameScene extends Phaser.Scene {
     constructor() {
         super('GameScene');
     }
 
-    init() {
+    init(data) {
+        // true solo cuando se entra desde JUEGO LOCAL (no en VOLVER A JUGAR)
+        this.desdeMenu = data?.desdeMenu === true;
         this.players = new Map();
         this.doors = new Map();
         this.vents = new Map();
@@ -23,6 +26,9 @@ export class GameScene extends Phaser.Scene {
     }
 
     create() {
+        // Los sonidos "vinculados" se pausan con la pausa y se paran al salir de la partida
+        Sonidos.vincularEscena(this);
+
         const map = this.make.tilemap({ key: 'mapa1' });
         const tileset = map.addTilesetImage('tileset_escenario1', 'tiles_escenario1');
 
@@ -63,6 +69,10 @@ export class GameScene extends Phaser.Scene {
         this.createInteractionOverlay();
 
         this.scene.launch('HUDScene');
+
+        if (this.desdeMenu) {
+            Sonidos.reproducir(this, 'iniciar-partida', { duracion: null, vincular: true });
+        }
 
         this.input.keyboard.on('keydown-ESC', () => {
             this.scene.pause('HUDScene');
@@ -294,6 +304,7 @@ export class GameScene extends Phaser.Scene {
         if (player?.isHero) {
             player.restoreStamina(cube.getData('amount'));
         }
+        Sonidos.reproducir(this, 'recoger-item', { duracion: null, vincular: true });
         this.activeStaminaPositions.delete(cube.getData('positionKey'));
         cube.disableBody(true, true);
         this.ensureMinimumStaminaCubes();
@@ -408,6 +419,9 @@ export class GameScene extends Phaser.Scene {
                 return;
             }
 
+            // Suena tanto al bloquear como al desbloquear con el botón
+            Sonidos.reproducir(this, 'puerta', { duracion: null, vincular: true });
+
             if (door.closed) {
                 door.closed = false;
                 door.colliders.forEach((collider) => {
@@ -427,6 +441,8 @@ export class GameScene extends Phaser.Scene {
             });
             door.visual.setFillStyle(0xff3333, 0.8);
             door.timer = this.time.delayedCall(15000, () => {
+                // Si queréis que también suene al reabrirse sola, descomentad:
+                // Sonidos.reproducir(this, 'puerta', { duracion: null, vincular: true });
                 door.closed = false;
                 door.colliders.forEach((collider) => {
                     collider.active = false;
@@ -438,16 +454,51 @@ export class GameScene extends Phaser.Scene {
 
         if (button.type === 'cinta') {
             const conveyor = this.conveyors.get(button.target);
-            if (!conveyor) {
+            // Si ya está activa se ignora (evita dos temporizadores y dos sonidos a la vez)
+            if (!conveyor || conveyor.active) {
                 return;
             }
             conveyor.active = true;
             conveyor.visual.setFillStyle(0x35d07f, 0.45);
+            this.iniciarSonidoCinta(conveyor, 4000);
             this.time.delayedCall(conveyor.duration, () => {
                 conveyor.active = false;
                 conveyor.visual.setFillStyle(0x3d8bd9, 0.25);
+                this.detenerSonidoCinta(conveyor);
             });
         }
+    }
+
+    /**
+     * 'activar-rampa' suena duracionActivacion ms y después 'rampa' en bucle
+     * hasta que la cinta se apaga (detenerSonidoCinta).
+     */
+    iniciarSonidoCinta(conveyor, duracionActivacion = 4000) {
+        conveyor.sonidoActivar = Sonidos.reproducir(this, 'activar-rampa', {
+            duracion: duracionActivacion,
+            vincular: true
+        });
+
+        if (conveyor.duration > duracionActivacion) {
+            // Temporizador de la escena: se congela con la pausa igual que el audio
+            conveyor.timerSonido = this.time.delayedCall(duracionActivacion, () => {
+                conveyor.timerSonido = null;
+                if (conveyor.active) {
+                    conveyor.sonidoLoop = Sonidos.reproducirLoop(this, 'rampa', { vincular: true });
+                }
+            });
+        }
+    }
+
+    detenerSonidoCinta(conveyor) {
+        if (conveyor.timerSonido) {
+            conveyor.timerSonido.remove(false);
+            conveyor.timerSonido = null;
+        }
+        Sonidos.parar(conveyor.sonidoActivar);
+        Sonidos.parar(conveyor.sonidoLoop);
+        conveyor.sonidoActivar = null;
+        conveyor.sonidoLoop = null;
     }
 
     useVent(player, vent) {
@@ -456,6 +507,7 @@ export class GameScene extends Phaser.Scene {
             return;
         }
         player.sprite.setPosition(destination.x, destination.y);
+        Sonidos.reproducir(this, 'ventilacion', { duracion: null, vincular: true });
         vent.cooldown = true;
         this.time.delayedCall(vent.cooldownDuration, () => {
             vent.cooldown = false;
@@ -499,7 +551,7 @@ export class GameScene extends Phaser.Scene {
         this.events.emit('alienCapturado');
         this.scene.pause('GameScene');
         this.scene.pause('HUDScene');
-        this.scene.launch('GameOverScene', { ganador: 'JUGADOR 1' });
+        this.scene.launch('GameOverScene', { ganador: 'JUGADOR 1', motivo: 'captura' });
         this.scene.bringToTop('GameOverScene');
     }
 }

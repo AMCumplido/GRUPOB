@@ -1,4 +1,13 @@
+import { Sonidos } from './Sonidos.js';
+
 export class BotonesUI {
+    /**
+     * opciones.sonido: clave del sonido al pulsar.
+     *   'button-2' (por defecto) = menú principal
+     *   'button'                 = menús dentro de la partida
+     *   null                     = sin sonido
+     * opciones.duracionSonido: ms que suena el clic (null = archivo entero)
+     */
     static crearBotonRectangular(scene, x, y, texto, accion, opciones = {}) {
         const {
             colorBorde = 0x8fcf35,
@@ -6,7 +15,9 @@ export class BotonesUI {
             colorTexto = '#ffffff',
             colorTextoHover = '#111122',
             ancho = 420,
-            alto = 100
+            alto = 100,
+            sonido = 'button-2',
+            duracionSonido = null
         } = opciones;
 
         const fondo = scene.add.rectangle(x, y, ancho, alto, colorFondo, 0.85)
@@ -30,12 +41,15 @@ export class BotonesUI {
             etiqueta.setColor(colorTexto);
         });
 
-        fondo.on('pointerdown', accion);
+        fondo.on('pointerdown', (...args) => {
+            Sonidos.reproducir(scene, sonido, { duracion: duracionSonido });
+            accion(...args);
+        });
 
         return {fondo, etiqueta};
     }
 
-    static crearBotonCircular(scene, x, y, texto, accion, radio = 100,colorBorde = 0x8fcf35) {
+    static crearBotonCircular(scene, x, y, texto, accion, radio = 100, colorBorde = 0x8fcf35, sonido = 'button-2', duracionSonido = null) {
         const fondo = scene.add.circle(x, y, radio, 0x111122, 0.85)
             .setStrokeStyle(4, colorBorde)
             .setInteractive({ useHandCursor: true });
@@ -58,7 +72,10 @@ export class BotonesUI {
             etiqueta.setColor('#ffffff');
         });
 
-        fondo.on('pointerdown', accion);
+        fondo.on('pointerdown', (...args) => {
+            Sonidos.reproducir(scene, sonido, { duracion: duracionSonido });
+            accion(...args);
+        });
 
         return { fondo, etiqueta };
     }

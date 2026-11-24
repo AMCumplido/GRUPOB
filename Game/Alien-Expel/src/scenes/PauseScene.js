@@ -47,21 +47,21 @@ export class PauseScene extends Phaser.Scene {
             this.scene.setVisible(false, 'GameScene');
             this.scene.setVisible(false, 'HUDScene');
             this.scene.start('SetingsScene', { escenaAnterior: 'PauseScene' });
-        });
+        }, { sonido: 'button' });
 
         const btnMenu = BotonesUI.crearBotonRectangular(this, 960, 620, 'VOLVER INICIO', () => {
             limpiarBlur();
             this.scene.stop('GameScene');
             this.scene.stop('HUDScene');
             this.scene.start('MenuScene');
-        });
+        }, { sonido: 'button' });
 
         const btnResume = BotonesUI.crearBotonRectangular(this, 960, 780, 'CONTINUAR', () => {
             limpiarBlur();
             this.scene.resume('GameScene');
             this.scene.resume('HUDScene');
             this.scene.stop();
-        }, { colorBorde: 0x884adf });
+        }, { colorBorde: 0x884adf, sonido: 'button' });
 
         const elementosAnimar = [
             titulo,

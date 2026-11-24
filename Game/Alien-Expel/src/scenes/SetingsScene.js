@@ -30,6 +30,9 @@ export class SetingsScene extends Phaser.Scene {
 
         this.crearSliderSonido(960, 360, 500);
 
+        // Si venimos de la pausa estamos "dentro de la partida" -> 'button'; si no, menú principal -> 'button-2'
+        const sonidoBoton = this.escenaAnterior === 'PauseScene' ? 'button' : 'button-2';
+
         BotonesUI.crearBotonRectangular(this, 960, 950, 'VOLVER', () => {
             if (this.escenaAnterior === 'PauseScene') {
                 this.escenaAnterior = null;
@@ -40,7 +43,7 @@ export class SetingsScene extends Phaser.Scene {
                 this.escenaAnterior = null;
                 this.scene.start('MenuScene');
             }
-        }, { colorBorde: 0x884adf });
+        }, { colorBorde: 0x884adf, sonido: sonidoBoton });
     }
 
     crearSliderSonido(x, y, ancho) {

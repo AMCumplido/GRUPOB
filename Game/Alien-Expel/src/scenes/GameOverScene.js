@@ -1,5 +1,6 @@
 import Phaser from 'phaser';
 import { BotonesUI } from '../utils/BotonesUI.js';
+import { Sonidos } from '../utils/Sonidos.js';
 
 export class GameOverScene extends Phaser.Scene {
     constructor() {
@@ -8,10 +9,17 @@ export class GameOverScene extends Phaser.Scene {
 
     init(data) {
         this.ganador = data?.ganador || 'JUGADOR 2';
+        // 'captura' = el héroe atrapa al alien, 'tiempo' = se acaba el reloj
+        this.motivo = data?.motivo || (this.ganador === 'JUGADOR 1' ? 'captura' : 'tiempo');
     }
 
     create() {
         this.scene.bringToTop();
+
+        // victoria = alien atrapado, fin-partida = se acaba el tiempo
+        // Cambia duracion (ms) si queréis cortarlo; null = archivo entero
+        const sonidoFinal = this.motivo === 'captura' ? 'victoria' : 'fin-partida';
+        Sonidos.reproducir(this, sonidoFinal, { duracion: null });
 
         const gameScene = this.scene.get('GameScene');
         const hudScene = this.scene.get('HUDScene');
@@ -63,8 +71,9 @@ export class GameOverScene extends Phaser.Scene {
             limpiarBlur();
             this.scene.stop('HUDScene');
             this.scene.stop();
-            this.scene.start('GameScene');
-        }, { colorBorde: 0x884adf });
+            // desdeMenu: false -> no suena 'iniciar-partida' al volver a jugar
+            this.scene.start('GameScene', { desdeMenu: false });
+        }, { colorBorde: 0x884adf, sonido: 'button' });
 
         const btnInicio = BotonesUI.crearBotonRectangular(this, 960, 780, 'VOLVER INICIO', () => {
             limpiarBlur();
@@ -72,7 +81,7 @@ export class GameOverScene extends Phaser.Scene {
             this.scene.stop('GameScene');
             this.scene.stop('HUDScene');
             this.scene.start('MenuScene');
-        }, { colorBorde: 0x884adf });
+        }, { colorBorde: 0x884adf, sonido: 'button' });
 
         const elementosAnimar = [
             titulo,

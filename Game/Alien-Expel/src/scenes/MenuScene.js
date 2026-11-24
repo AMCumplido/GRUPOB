@@ -20,7 +20,11 @@ export class MenuScene extends Phaser.Scene {
         logotype.setScale(0.4);
 
         BotonesUI.crearBotonRectangular(this,960, 620, 'JUEGO LOCAL', () => {
-            this.scene.start('LoadScene', { siguienteEscena: 'GameScene' });
+            // desdeMenu: true -> GameScene reproduce 'iniciar-partida' (no en VOLVER A JUGAR)
+            this.scene.start('LoadScene', {
+                siguienteEscena: 'GameScene',
+                datosSiguiente: { desdeMenu: true }
+            });
         });
 
         BotonesUI.crearBotonRectangular(this, 960, 760, 'OPCIONES', () => {
