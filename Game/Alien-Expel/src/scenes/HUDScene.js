@@ -8,6 +8,7 @@ export class HUDScene extends Phaser.Scene {
     }
 
     create() {
+        Sonidos.vincularEscena(this);
         this.add.rectangle(960, 55, 1920, 110, 0x111122, 0.95)
             .setStrokeStyle(3, 0x884adf);
 
@@ -77,6 +78,11 @@ export class HUDScene extends Phaser.Scene {
         // A falta de 11 s: entra musica-timeout subiendo de 0 al 100% en 5 s
         if (this.tiempoRestante === 11) {
             Sonidos.reproducirMusica(this, 'musica-timeout', { volumen: 1, fadeIn: 5000, desdeInicio: true });
+        }
+
+        // Últimos 5 s: efecto de reloj (se corta justo al llegar a 0)
+        if (this.tiempoRestante === 5) {
+            Sonidos.reproducir(this, 'reloj', { duracion: 5000, vincular: true });
         }
 
         const minutos = Math.floor(this.tiempoRestante / 60);

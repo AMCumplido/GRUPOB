@@ -66,6 +66,7 @@ export class LoadScene extends Phaser.Scene {
         this.load.audio('recoger-item', 'assets/audio/recoger-item.mp3');
         this.load.audio('victoria', 'assets/audio/victoria.mp3');
         this.load.audio('fin-partida', 'assets/audio/fin-partida.mp3');
+        this.load.audio('reloj', 'assets/audio/reloj.mp3');
         this.load.audio('musica-juego', 'assets/audio/musica-juego.mp3');
         this.load.audio('musica-timeout', 'assets/audio/musica-timeout.mp3');
         // METER AKI COSAS!!!!
