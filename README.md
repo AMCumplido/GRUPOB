@@ -1,0 +1,56 @@
+[README.md](https://github.com/user-attachments/files/35403458/README.md)
+# GRUPOB
+<p align="center">
+  <img src="img/Diseño_Logo.png" alt="Logotipo de Alien Export" width="400">
+</p>
+
+# Alien Expel
+
+**Juegos en Red · Grado en Diseño y Desarrollo de Videojuegos · URJC · Curso 2026/27**<br>
+**Grupo B**
+
+## Descripción de la temática
+
+"Alien Expel" es un juego en 2D para varios jugadores en red en el que un cazador persigue al resto de jugadores y los otros tienen que eliminar al cazador sin que los elimine este. Ambientado en una nave nodriza alienígena, los jugadores que encarnan a los 
+extraterrestres deben evitar que el superhéroe intruso en su nave les pille.
+
+## Equipo de desarrollo
+
+| Integrante del proyecto | Correo | Usuario GitHub |
+| :--- | :--- | :--- |
+| Alejandro Miguel Cumplido Alastuey | am.cumplidoa.2024@alumnos.urjc.es | AMCumplido |
+| Álvaro Cardoso Serrano | a.cardoso.2024@alumnos.urjc.es | Roalvo15-YT |
+| Estanislao de Koska Castrillón Román | ek.castrillon.2022@alumnos.urjc.es | Estcastri |
+| Daniel Delgado Pérez | d.delagdo.2018@alumnos.urjc.es | D-Delni |
+
+**Repositorio:** `https://github.com/AMCumplido/GRUPOB.git`
+
+**Licencia:** [Apache 2.0](LICENSE)
+
+---
+
+## Game Design Document
+
+El documento de diseño completo está en **[GDD.md](GDD.md)**.
+
+Apartados principales:
+
+- [Especificaciones básicas](GDD.md#2-especificaciones-básicas)
+- [Jugabilidad](GDD.md#3-jugabilidad)
+- [Narrativa](GDD.md#4-narrativa)
+- [Imagen y diseño visual](GDD.md#5-imagen-y-diseño-visual)
+- [Sonido](GDD.md#6-sonido)
+- [Interfaz y diagrama de flujo](GDD.md#7-interfaz-y-diagrama-de-flujo)
+- [Comunicación y marketing](GDD.md#8-comunicación-y-marketing)
+- [Referencias](GDD.md#9-referencias)
+
+---
+
+## Fases del proyecto
+
+| Fase | Contenido | Estado |
+| :--- | :--- | :--- |
+| Fase 1 | Equipo, temática y GDD | ✅ Entregada (tag `fase-1`) |
+| Fase 2 | Juego en local | ✅ Entregada (tag `fase-2`) |
+| Fase 3 | API REST | ⏳ Pendiente |
+| Fase 4 | WebSockets | ⏳ Pendiente |
