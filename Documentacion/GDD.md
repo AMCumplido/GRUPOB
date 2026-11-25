@@ -280,6 +280,17 @@ Sin embargo, el superhéroe se enfrenta a un problema imprevisto: la atmósfera 
 - **Motivación:** Proteger la Tierra de cualquier amenaza a toda costa y asegurarse de que el presupuesto de la ARE no se desperdicie.
 - **Trasfondo:** En su adolescencia fue el superhéroe híbrido más poderoso del planeta, logrando salvarlo de la mayor catástrofe que la humanidad haya sufrido jamás. Era conocido por un título heroico que, con los años, la cultura popular terminó distorsionando en un sinfín de variantes cómicas debido a un antiguo meme de internet (lo que le valió su actual alias oficial en los archivos de seguridad). Tras la misteriosa desaparición del antiguo líder de la Agencia de Respuesta de Élite (ARE), heredó el control absoluto de la organización militar secreta. Actualmente ha dejado atrás los trajes de licra por los de corbata, gestionando las crisis globales desde la sombras.
 
+### 4.2. Textos escena load
+| ImagenKey | Titulo | Texto |
+| :--- | :---: | :---: |
+| tip_heroe1 | CAPITÁN ÓRBITA | Correr consume el triple de estamina. ¡Administra tu energía! |
+| tip_heroe2 | LADY VOID | Cuidado con los interruptores de los alienígenas: pueden cerrarte la puerta en la cara. |
+| tip_heroe3 | ROBO FUNK | Activa los cuadros de luz para ganar un impulso de velocidad gratuito sin gastar estamina. |
+| tip_alien1 | BOUBBLE BEAST | ARecoge los botes de estamina del mapa para dejar al héroe sin energía. |
+| tip_alien2 | CARAMOAI | Usa los conductos de ventilación para teletransportarte, cuidado porque no podrás usarlo tras unos instantes. |
+| tip_alien3 | RANMA | Quizás no debí haber comprado los billetes para este viaje. Pero es que en el foro integalactico decian que los insectos terrestres tienen un delicioso sabor a... ¡“croac-barbacoa”! |
+| tip_Inombrable | INNOMBRABLE | Antiguo héroe Invencible, su nombre fue arruinado por un meme de internet. Ahora dirige la ARE en traje y corbata, luchando por salvar la Tierra sin pasarse del presupuesto. |
+
 ---
 
 ## 5. Imagen y diseño visual
