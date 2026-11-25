@@ -50,6 +50,6 @@ Apartados principales:
 | Fase | Contenido | Estado |
 | :--- | :--- | :--- |
 | Fase 1 | Equipo, temática y GDD | ✅ Entregada (tag `fase-1`) |
-| Fase 2 | Juego en local | ⏳ Pendiente |
+| Fase 2 | Juego en local | ✅ Entregada (tag `fase-2`) |
 | Fase 3 | API REST | ⏳ Pendiente |
 | Fase 4 | WebSockets | ⏳ Pendiente |
