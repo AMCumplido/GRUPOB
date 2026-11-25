@@ -292,7 +292,7 @@ Sin embargo, el superhéroe se enfrenta a un problema imprevisto: la atmósfera 
 
 ### 5.2. Estilo visual
 
-El juego utiliza un estilo cartoon 2D porque se desea resaltar la funcionalidad sobre el detalle, se busca la simplicidad funcional.
+El juego utiliza un estilo cartoon 2D y pixel art porque se desea resaltar la funcionalidad sobre el detalle, se busca la simplicidad funcional. El estilo cartoon tiene el objetivo de mostrar el contenido del juego y el pixel art es el arte del gameplay, donde prioriza el flujo de partida sobre el detalle del juego.
 
 ### 5.3. Uso de colores
 
