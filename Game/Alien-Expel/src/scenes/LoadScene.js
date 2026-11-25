@@ -55,6 +55,14 @@ export class LoadScene extends Phaser.Scene {
         this.load.image('deco3', 'assets/images/tips/Pensamiento.png');
 
         //Para el juego:
+        this.load.spritesheet('player-hero', 'assets/images/SpritesCharacter/Héroe_1.png', {
+            frameWidth: 64,
+            frameHeight: 64
+        });
+        this.load.spritesheet('player-alien', 'assets/images/SpritesCharacter/Alien_1.png', {
+            frameWidth: 64,
+            frameHeight: 64
+        });
         this.load.tilemapTiledJSON('mapa1', 'assets/maps/mapa_escenario1.json');
         this.load.image('tiles_escenario1', 'assets/maps/tileset_escenario1.png');
         // Sonidos de la partida
